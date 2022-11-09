@@ -16,8 +16,7 @@
                 class="note-content d-flex justify-content-center align-items-center"
               >
                 <div class="icon-bg">
-                  <!-- <img src="/static/icons/info.svg" alt="" /> -->
-                  hi
+                  <img src="./static/icons/info.svg" alt="" />
                 </div>
                 <span>عدد الإعلانات المتبقية لديك: 3</span>
               </div>
@@ -115,11 +114,11 @@ const taps = ref([
     icon: exchangeIcon,
   },
 ]);
-import sellIcon from "/static/icons/property.svg";
-import rentIcon from "/static/icons/rent.svg";
-import wantedSellIcon from "/static/icons/property.svg";
-import wantedRentIcon from "/static/icons/rent.svg";
-import exchangeIcon from "/static/icons/Exchange.svg";
+import sellIcon from "./static/icons/property.svg";
+import rentIcon from "./static/icons/rent.svg";
+import wantedSellIcon from "./static/icons/property.svg";
+import wantedRentIcon from "./static/icons/rent.svg";
+import exchangeIcon from "./static/icons/Exchange.svg";
 
 const tapImages = ref([
   sellIcon,
