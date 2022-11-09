@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "firebase-admin": "^11.2.0",
+    "nuxt": "3.0.0-rc.11",
+    "sass": "^1.54.9",
+    "sass-loader": "10.1.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "click-outside-vue3": "^4.0.1",
+    "swiper": "^8.4.4",
+    "vue-smooth-scrollbar": "^1.0.3"
+  }
+}
