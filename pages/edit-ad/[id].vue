@@ -114,11 +114,11 @@ const taps = ref([
     icon: exchangeIcon,
   },
 ]);
-import sellIcon from "./static/icons/property.svg";
-import rentIcon from "./static/icons/rent.svg";
-import wantedSellIcon from "./static/icons/property.svg";
-import wantedRentIcon from "./static/icons/rent.svg";
-import exchangeIcon from "./static/icons/Exchange.svg";
+import sellIcon from "/static/icons/property.svg";
+import rentIcon from "/static/icons/rent.svg";
+import wantedSellIcon from "/static/icons/property.svg";
+import wantedRentIcon from "/static/icons/rent.svg";
+import exchangeIcon from "/static/icons/Exchange.svg";
 
 const tapImages = ref([
   sellIcon,
