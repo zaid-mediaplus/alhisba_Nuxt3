@@ -138,7 +138,7 @@ import haederIcon from "/static/icons/advertisement.svg";
 
 const header = ref(haederIcon);
 
-import infoRef from "/static/icons/info.svg";
+import infoRef from "./static/icons/info.svg";
 const infoSvg = ref(infoRef);
 </script>
 
