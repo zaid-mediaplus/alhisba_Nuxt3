@@ -15,7 +15,8 @@
               class="note-content d-flex justify-content-center align-items-center"
             >
               <div class="icon-bg">
-                <img src="/static/icons/info.svg" alt="" />
+                <!-- <img src="/static/icons/info.svg" alt="" /> -->
+                hi
               </div>
               <span>عدد الإعلانات المتبقية لديك: 3</span>
             </div>
