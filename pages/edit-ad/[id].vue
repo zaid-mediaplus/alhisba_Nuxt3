@@ -16,7 +16,7 @@
                 class="note-content d-flex justify-content-center align-items-center"
               >
                 <div class="icon-bg">
-                  <img src="./static/icons/info.svg" alt="" />
+                  <img :src="infoSvg" alt="" />
                 </div>
                 <span>عدد الإعلانات المتبقية لديك: 3</span>
               </div>
@@ -137,6 +137,9 @@ const selectToggle = () => (select.value = !select.value);
 import haederIcon from "/static/icons/advertisement.svg";
 
 const header = ref(haederIcon);
+
+import infoRef from "/static/icons/info.svg";
+const infoSvg = ref(infoRef);
 </script>
 
 <style lang="scss" scoped>
