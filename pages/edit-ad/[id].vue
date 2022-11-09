@@ -1,76 +1,78 @@
 <template>
-  <CoreInsideHeader
-    title="أضف إعلان"
-    :img="header"
-    description="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى.
+  <div>
+    <CoreInsideHeader
+      title="أضف إعلان"
+      :img="header"
+      description="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى.
 "
-    bottom="-46px"
-  />
-  <CoreAppContainer>
-    <CoreInsideContainer>
-      <div class="create-ad">
-        <div class="create-ad-form">
-          <div class="yellow-note d-flex justify-content-center">
-            <div
-              class="note-content d-flex justify-content-center align-items-center"
-            >
-              <div class="icon-bg">
-                <!-- <img src="/static/icons/info.svg" alt="" /> -->
-                hi
+      bottom="-46px"
+    />
+    <CoreAppContainer>
+      <CoreInsideContainer>
+        <div class="create-ad">
+          <div class="create-ad-form">
+            <div class="yellow-note d-flex justify-content-center">
+              <div
+                class="note-content d-flex justify-content-center align-items-center"
+              >
+                <div class="icon-bg">
+                  <!-- <img src="/static/icons/info.svg" alt="" /> -->
+                  hi
+                </div>
+                <span>عدد الإعلانات المتبقية لديك: 3</span>
               </div>
-              <span>عدد الإعلانات المتبقية لديك: 3</span>
             </div>
-          </div>
-          <div class="category">
-            <div class="category-title d-flex justify-content-center">
-              <span>اختر الفئة</span>
+            <div class="category">
+              <div class="category-title d-flex justify-content-center">
+                <span>اختر الفئة</span>
+              </div>
             </div>
-          </div>
-          <div
-            class="category-taps d-flex flex-wrap justify-content-center gap-2"
-          >
             <div
-              v-for="(tap, index) in taps"
-              :key="index"
-              @click="currentTapIndex = index"
+              class="category-taps d-flex flex-wrap justify-content-center gap-2"
             >
-              <FormAdTap :tap="tap" :selected="currentTapIndex == index" />
+              <div
+                v-for="(tap, index) in taps"
+                :key="index"
+                @click="currentTapIndex = index"
+              >
+                <FormAdTap :tap="tap" :selected="currentTapIndex == index" />
+              </div>
+            </div>
+            <div class="category-border"></div>
+            <FormAdSell v-if="currentTapIndex == 0" />
+            <FormAdRent v-if="currentTapIndex == 1" />
+            <FormAdSell v-if="currentTapIndex == 2" />
+            <FormAdRent v-if="currentTapIndex == 3" />
+            <FormAdExchange v-if="currentTapIndex == 4" />
+            <div class="d-flex justify-content-between">
+              <div
+                class="attachments"
+                v-for="(item, index) in items"
+                :key="index"
+                v-show="!select"
+              >
+                <FormAttachments
+                  :title="item.title"
+                  :icon="attatchmentImages[index]"
+                />
+              </div>
+            </div>
+            <div v-show="select">
+              <FormCreateAd />
             </div>
           </div>
-          <div class="category-border"></div>
-          <FormAdSell v-if="currentTapIndex == 0" />
-          <FormAdRent v-if="currentTapIndex == 1" />
-          <FormAdSell v-if="currentTapIndex == 2" />
-          <FormAdRent v-if="currentTapIndex == 3" />
-          <FormAdExchange v-if="currentTapIndex == 4" />
-          <div class="d-flex justify-content-between">
+          <div class="next-btn d-flex justify-content-end">
             <div
-              class="attachments"
-              v-for="(item, index) in items"
-              :key="index"
-              v-show="!select"
+              class="next d-flex justify-content-center align-items-center"
+              @click="selectToggle()"
             >
-              <FormAttachments
-                :title="item.title"
-                :icon="attatchmentImages[index]"
-              />
+              <span>التالي</span>
             </div>
-          </div>
-          <div v-show="select">
-            <FormCreateAd />
           </div>
         </div>
-        <div class="next-btn d-flex justify-content-end">
-          <div
-            class="next d-flex justify-content-center align-items-center"
-            @click="selectToggle()"
-          >
-            <span>التالي</span>
-          </div>
-        </div>
-      </div>
-    </CoreInsideContainer>
-  </CoreAppContainer>
+      </CoreInsideContainer>
+    </CoreAppContainer>
+  </div>
 </template>
 
 <script setup>
