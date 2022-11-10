@@ -1,5 +1,6 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
-
+// const defineNuxtConfig = require("nuxt3");
+import { defineNuxtConfig } from "nuxt/config";
 export default defineNuxtConfig({
   target: "static",
 
