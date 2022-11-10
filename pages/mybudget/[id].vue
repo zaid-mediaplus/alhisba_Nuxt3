@@ -47,13 +47,13 @@ const selectToggle = () => (select.value = !select.value);
 
 const currentTapIndex = ref(1);
 
-import haederIcon from "~/assets/images/insideHeader/budget-page.png";
+import haederIcon from "/static/images/insideHeader/budget-page.png";
 
 const header = ref(haederIcon);
 </script>
 
 <style lang="scss" scoped>
-@import "..~/assets/sass/variables.scss";
+@import "../static/sass/variables.scss";
 .page-bg {
   background: #0789fb10;
   padding-top: 200px;
