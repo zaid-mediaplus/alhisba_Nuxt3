@@ -1,0 +1,166 @@
+//base-path
+$base-path: "/dev/alhisba/";
+
+// layers
+$zindex-dropdown: 1000;
+$zindex-sticky: 1020;
+$zindex-fixed: 1030;
+$zindex-modal-backdrop: 1040;
+$zindex-offcanvas: 1050;
+$zindex-modal: 1060;
+$zindex-popover: 1070;
+$zindex-tooltip: 1080;
+
+// font
+$main-font-family: "Avenir";
+
+//App Font Size
+$font-size-1: 45px;
+$font-size-2: 32px;
+$font-size-3: 20px;
+$font-size-4: 18px;
+$font-size-5: 16px;
+$font-size-6: 14px;
+
+// app primary color
+$primary-blue-color: #078afb;
+$primary-yellow-color: #f3af34;
+$primary-green-color: #34e0a2;
+$primary-text-color: #112347;
+$secondary-text-color: #fff;
+$theard-text-color: #8996a2;
+
+//margin
+$section-margin-top: 75px;
+
+//mixine
+@mixin small() {
+  @media (max-width: 576px) {
+    @content;
+  }
+}
+
+@mixin medium() {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin large() {
+  @media (max-width: 992px) {
+    @content;
+  }
+}
+
+@mixin extra-large() {
+  @media (max-width: 1200px) {
+    @content;
+  }
+}
+@mixin extra-high-large() {
+  @media (max-width: 1500px) {
+    @content;
+  }
+}
+@mixin extra-extra-large() {
+  @media (max-width: 1700px) {
+    @content;
+  }
+}
+@mixin extra-extra-extra-large() {
+  @media (max-width: 1920px) {
+    @content;
+  }
+}
+// @mixin min-extra-large() {
+//   @media (min-width: 1200px) {
+//     @content;
+//   }
+// }
+
+// card main-title text font size
+@mixin card-title-small() {
+  @media (max-width: 576px) {
+    font-size: 12px;
+  }
+}
+@mixin card-title-medium() {
+  @media (max-width: 768px) {
+    font-size: $font-size-6;
+  }
+}
+@mixin card-title-lg() {
+  @media (max-width: 992px) {
+    font-size: $font-size-5;
+  }
+}
+@mixin card-title-extra-lg() {
+  @media (max-width: 1200px) {
+    font-size: $font-size-4;
+  }
+}
+// card content text font size
+@mixin card-content-small() {
+  @media (max-width: 576px) {
+    font-size: 8px;
+  }
+}
+@mixin card-content-medium() {
+  @media (max-width: 768px) {
+    font-size: 10px;
+  }
+}
+@mixin card-content-lg() {
+  @media (max-width: 992px) {
+    font-size: 12px;
+  }
+}
+@mixin card-content-extra-lg() {
+  @media (max-width: 1200px) {
+    font-size: $font-size-6;
+  }
+}
+
+// for 20px font-size
+@mixin inside-font-small() {
+  @media (max-width: 576px) {
+    font-size: 12px;
+  }
+}
+@mixin inside-font-medium() {
+  @media (max-width: 768px) {
+    font-size: $font-size-6;
+  }
+}
+@mixin inside-font-lg() {
+  @media (max-width: 992px) {
+    font-size: $font-size-5;
+  }
+}
+@mixin inside-font-extra-lg() {
+  @media (max-width: 1200px) {
+    font-size: $font-size-4;
+  }
+}
+
+// for 18px font-size
+@mixin eighteen-font-small() {
+  @media (max-width: 576px) {
+    font-size: 10px;
+  }
+}
+@mixin eighteen-font-medium() {
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
+}
+@mixin eighteen-font-lg() {
+  @media (max-width: 992px) {
+    font-size: $font-size-6;
+  }
+}
+@mixin eighteen-font-extra-lg() {
+  @media (max-width: 1200px) {
+    font-size: $font-size-5;
+  }
+}
