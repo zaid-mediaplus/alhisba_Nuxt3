@@ -11,20 +11,20 @@
         <span class="title">منزل مطلوب للبيع</span>
         <div class="proparities d-flex justify-content-between gap-2">
           <div>
-            <img src="/static/icons/cardIcon/bed.svg" />
+            <img src="~/assets/icons/cardIcon/bed.svg" />
             <span class="">3</span>
           </div>
           <div>
-            <img src="/static/icons/cardIcon/area.svg" />
+            <img src="~/assets/icons/cardIcon/area.svg" />
             <span class="">750 م2</span>
           </div>
           <div>
-            <img src="/static/icons/cardIcon/bath.svg" />
+            <img src="~/assets/icons/cardIcon/bath.svg" />
             <span class="">3</span>
           </div>
         </div>
         <div class="company-name">
-          <img src="/static/icons/cardIcon/user.svg" alt="" />
+          <img src="~/assets/icons/cardIcon/user.svg" alt="" />
           <span>شركة الأنوار للإستثمارات العقارية</span>
         </div>
       </div>
@@ -34,17 +34,17 @@
       >
         <div class="contact d-flex gap-3">
           <div>
-            <img class="save" src="/static/icons/cardIcon/save.svg" />
+            <img class="save" src="~/assets/icons/cardIcon/save.svg" />
           </div>
           <div>
-            <img src="/static/icons/cardIcon/Message.svg" />
+            <img src="~/assets/icons/cardIcon/Message.svg" />
           </div>
           <div>
-            <img src="/static/icons/cardIcon/Phone.svg" />
+            <img src="~/assets/icons/cardIcon/Phone.svg" />
           </div>
         </div>
         <div class="green d-flex justify-content-center align-items-center">
-          <img src="/static/icons/cardIcon/home.svg" />
+          <img src="~/assets/icons/cardIcon/home.svg" />
         </div>
       </div>
     </div>

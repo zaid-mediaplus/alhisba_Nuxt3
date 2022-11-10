@@ -2,7 +2,7 @@
   <div class="successful-section">
     <div class="successful-bg">
       <div class="close">
-        <img src="/static/icons/close.svg" alt="" />
+        <img src="~/assets/icons/close.svg" alt="" />
       </div>
       <div class="content">
         <div class="green d-flex justify-content-center align-items-center">
@@ -12,7 +12,7 @@
             <div
               class="successful-bg-in d-flex justify-content-center align-items-center"
             >
-              <img src="/static/icons/w2select.svg" alt="" />
+              <img src="~/assets/icons/w2select.svg" alt="" />
             </div>
           </div>
         </div>

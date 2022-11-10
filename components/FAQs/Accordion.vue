@@ -20,11 +20,11 @@
           </div>
           <div class="helpful-btn d-flex align-items-center">
             <div class="yes">
-              <img src="/static/icons/like.svg" alt="" />
+              <img src="~/assets/icons/like.svg" alt="" />
               <span>نعم</span>
             </div>
             <div class="no">
-              <img src="/static/icons/dislike.svg" alt="" />
+              <img src="~/assets/icons/dislike.svg" alt="" />
               <span>لا</span>
             </div>
           </div>
@@ -39,9 +39,9 @@ const props = defineProps({
   question: Object,
 });
 
-import closeIcon from "~/assets/icons/minus.svg";
+import closeIcon from "~~/assets/icons/minus.svg";
 const close = ref(closeIcon);
-import plusIcon from "~/assets/icons/bplus.svg";
+import plusIcon from "~~/assets/icons/bplus.svg";
 const plus = ref(plusIcon);
 
 const usersToggle = ref(false);

@@ -11,14 +11,14 @@
       <div class="auction-details">
         <div class="bg d-flex align-items-center">
           <div class="title">
-            <img src="/static/icons/justice.svg" alt="" />
+            <img src="~/assets/icons/justice.svg" alt="" />
             <span>وزارة العدل</span>
             <div class="line"></div>
           </div>
           <div class="contact-inforamtion d-flex justify-content-between">
             <div class="phone d-flex align-items-end">
               <div class="icon">
-                <img src="/static/icons/darkmobile.svg" alt="" />
+                <img src="~/assets/icons/darkmobile.svg" alt="" />
               </div>
               <div class="phone-details d-flex flex-column">
                 <span class="top-title">رقم الهاتف</span>
@@ -27,7 +27,7 @@
             </div>
             <div class="address d-flex align-items-end">
               <div class="icon">
-                <img src="/static/icons/address.svg" alt="" />
+                <img src="~/assets/icons/address.svg" alt="" />
               </div>
               <div class="address-details d-flex flex-column">
                 <span class="top-title">العنوان</span>
@@ -68,35 +68,35 @@
 <script setup>
 const items = ref([
   {
-    icon: "/static/icons/blueHouse.svg",
+    icon: "~/assets/icons/blueHouse.svg",
     title: "فروانية - قطعة 4",
     area: "750",
     price: "ك.د 264,500",
     date: "26/10/2022 - 10:00 AM",
   },
   {
-    icon: "/static/icons/blueHouse.svg",
+    icon: "~/assets/icons/blueHouse.svg",
     title: " غرب عبدالله المبارك",
     area: "750",
     price: "ك.د 264,500",
     date: "26/10/2022 - 10:00 AM",
   },
   {
-    icon: "/static/icons/Land.svg",
+    icon: "~/assets/icons/Land.svg",
     title: " الأندلس ",
     area: "750",
     price: "ك.د 264,500",
     date: "26/10/2022 - 10:00 AM",
   },
   {
-    icon: "/static/icons/blueHouse.svg",
+    icon: "~/assets/icons/blueHouse.svg",
     title: " مدينة صباح الأحمد البحرية  ",
     area: "750",
     price: "ك.د 264,500",
     date: "26/10/2022 - 10:00 AM",
   },
   {
-    icon: "/static/icons/blueHouse.svg",
+    icon: "~/assets/icons/blueHouse.svg",
     title: "إشبيلية",
     area: "750",
     price: "ك.د 264,500",
@@ -104,7 +104,7 @@ const items = ref([
   },
 ]);
 
-import haederIcon from "/static/images/insideHeader/auctions-page.png";
+import haederIcon from "~/assets/images/insideHeader/auctions-page.png";
 
 const header = ref(haederIcon);
 </script>

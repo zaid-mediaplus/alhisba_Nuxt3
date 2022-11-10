@@ -100,32 +100,32 @@
 <script setup>
 const items = ref([
   {
-    icon: "/static/icons/profile/facebook.svg",
+    icon: "~/assets/icons/profile/facebook.svg",
     title: "فيسبوك",
-    select: "/static/icons/select.svg",
+    select: "~/assets/icons/select.svg",
     path: " ",
     bgcolor: "rgba(7, 138, 251, 0.1);",
   },
   {
-    icon: "/static/icons/whatsapp.svg",
+    icon: "~/assets/icons/whatsapp.svg",
     title: "واتساب",
-    select: "/static/icons/select.svg",
+    select: "~/assets/icons/select.svg",
     path: " ",
     bgcolor: "rgba(10, 197, 129, 0.1);",
   },
   {
-    icon: "/static/icons/r-website.svg",
+    icon: "~/assets/icons/r-website.svg",
     title: "www.website.com ",
-    select: "/static/icons/select.svg",
+    select: "~/assets/icons/select.svg",
     path: " ",
     bgcolor: "rgba(255, 115, 92, 0.15);",
   },
 ]);
 
-import facebookIcon from "/static/icons/profile/facebook.svg";
-import whatsappIcon from "/static/icons/whatsapp.svg";
-import websiteIcon from "/static/icons/r-website.svg";
-import selectIcon from "/static/icons/select.svg";
+import facebookIcon from "~/assets/icons/profile/facebook.svg";
+import whatsappIcon from "~/assets/icons/whatsapp.svg";
+import websiteIcon from "~/assets/icons/r-website.svg";
+import selectIcon from "~/assets/icons/select.svg";
 const select = ref(selectIcon);
 const mediaIcons = ref([facebookIcon, whatsappIcon, websiteIcon]);
 </script>

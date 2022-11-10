@@ -1,7 +1,7 @@
 <template>
   <div class="headerContainer">
     <div class="bg">
-      <img src="/static/images/home-bg.png" />
+      <img src="~/assets/images/home-bg.png" />
     </div>
     <div class="bgGradient"></div>
     <CoreAppContainer>
@@ -23,8 +23,8 @@
 </template>
 
 <script setup>
-import logoIcon from "@/static/images/Logo.svg";
-import loginIcon from "@/static/icons/Login.svg";
+import logoIcon from "@~/assets/images/Logo.svg";
+import loginIcon from "@~/assets/icons/Login.svg";
 
 const logo = ref(logoIcon);
 const login = ref(loginIcon);

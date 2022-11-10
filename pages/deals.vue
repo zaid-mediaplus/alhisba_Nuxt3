@@ -43,7 +43,7 @@
         </div>
         <div class="ads-section">
           <div class="ads d-flex justify-content-center">
-            <img src="/static/images/L-AD-4.png" />
+            <img src="~/assets/images/L-AD-4.png" />
           </div>
         </div>
       </CoreItemContainer>
@@ -54,49 +54,49 @@
 <script setup>
 const items = ref([
   {
-    icon: "/static/icons/blueHouse.svg",
+    icon: "~/assets/icons/blueHouse.svg",
     title: "اليرموك ",
     area: "750",
     price: "ك.د 264,500",
     date: "26.10.2021",
   },
   {
-    icon: "/static/icons/blueHouse.svg",
+    icon: "~/assets/icons/blueHouse.svg",
     title: " مدينة صباح الأحمد البحرية ",
     area: "750",
     price: "ك.د 264,500",
     date: "26.10.2021",
   },
   {
-    icon: "/static/icons/Land.svg",
+    icon: "~/assets/icons/Land.svg",
     title: " الأندلس ",
     area: "750",
     price: "ك.د 264,500",
     date: "26.10.2021",
   },
   {
-    icon: "/static/icons/blueHouse.svg",
+    icon: "~/assets/icons/blueHouse.svg",
     title: " مدينة صباح الأحمد البحرية  ",
     area: "750",
     price: "ك.د 264,500",
     date: "26.10.2021",
   },
   {
-    icon: "/static/icons/blueHouse.svg",
+    icon: "~/assets/icons/blueHouse.svg",
     title: "المسايل",
     area: "750",
     price: "ك.د 264,500",
     date: "26.10.2021",
   },
   {
-    icon: "/static/icons/blueHouse.svg",
+    icon: "~/assets/icons/blueHouse.svg",
     title: "المسايل",
     area: "750",
     price: "ك.د 264,500",
     date: "26.10.2021",
   },
   {
-    icon: "/static/icons/blueHouse.svg",
+    icon: "~/assets/icons/blueHouse.svg",
     title: "غرب عبدالله المبارك",
     area: "750",
     price: "ك.د 264,500",
@@ -104,7 +104,7 @@ const items = ref([
   },
 ]);
 
-import haederIcon from "/static/images/insideHeader/deals-page.png";
+import haederIcon from "~/assets/images/insideHeader/deals-page.png";
 
 const header = ref(haederIcon);
 </script>

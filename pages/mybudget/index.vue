@@ -39,7 +39,7 @@
 </template>
 
 <script setup scoped>
-import haederIcon from "/static/images/insideHeader/budget-page.png";
+import haederIcon from "~/assets/images/insideHeader/budget-page.png";
 const props = defineProps({
   selected: Boolean,
 });
@@ -51,7 +51,7 @@ const header = ref(haederIcon);
 </script>
 
 <style lang="scss" scoped>
-@import "../static/sass/variables.scss";
+@import "..~/assets/sass/variables.scss";
 .page-bg {
   background: #0789fb10;
   padding-top: 200px;

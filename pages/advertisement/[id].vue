@@ -8,28 +8,28 @@
         <div class="top-section d-flex justify-content-between">
           <div class="real-state-picture">
             <div class="main-picture position-relative">
-              <img src="/static/images/lg-realstate.png" alt="" />
+              <img src="~/assets/images/lg-realstate.png" alt="" />
             </div>
             <div
               class="share bg d-flex justify-content-center align-items-center position-absolute"
             >
-              <img src="/static/icons/share.svg" alt="" />
+              <img src="~/assets/icons/share.svg" alt="" />
               <span>شارك الإعلان</span>
             </div>
             <div
               class="favourite bg d-flex justify-content-center align-items-center position-absolute"
             >
-              <img src="/static/icons/cardIcon/save.svg" alt="" />
+              <img src="~/assets/icons/cardIcon/save.svg" alt="" />
               <span>أضف إلى المفضلة</span>
             </div>
             <div class="list-picture d-flex flex-wrap justify-content-between">
-              <img src="/static/images/sell.png" alt="" />
-              <img src="/static/images/sell.png" alt="" />
-              <img src="/static/images/sell.png" alt="" />
-              <img src="/static/images/sell.png" alt="" />
+              <img src="~/assets/images/sell.png" alt="" />
+              <img src="~/assets/images/sell.png" alt="" />
+              <img src="~/assets/images/sell.png" alt="" />
+              <img src="~/assets/images/sell.png" alt="" />
               <img
                 class="last position-relative"
-                src="/static/images/sell.png"
+                src="~/assets/images/sell.png"
                 alt=""
               />
               <!-- <div class="bgGradient position-absolute"></div> -->
@@ -40,13 +40,13 @@
               <div
                 class="profile-icon d-flex justify-content-center align-items-center"
               >
-                <img src="/static/icons/lg-profile.svg" alt="" />
+                <img src="~/assets/icons/lg-profile.svg" alt="" />
               </div>
               <div class="title-name">
                 <span>شركة الانوار للاستثمارات العقارية</span>
               </div>
               <div class="location d-flex justify-content-center">
-                <img src="/static/icons/address.svg" alt="" />
+                <img src="~/assets/icons/address.svg" alt="" />
                 <span>الكويت</span>
               </div>
               <div class="description">
@@ -59,22 +59,22 @@
               </div>
               <div class="contact-us-padding">
                 <div class="show-mobile-number d-flex justify-content-center">
-                  <img src="/static/icons/mid-mobile.svg" alt="" />
+                  <img src="~/assets/icons/mid-mobile.svg" alt="" />
                   <span>أظهر رقم الهاتف</span>
                 </div>
                 <div class="send-message d-flex justify-content-center">
-                  <img src="/static/icons/cardIcon/Message.svg" alt="" />
+                  <img src="~/assets/icons/cardIcon/Message.svg" alt="" />
                   <span>أرسل رسالة</span>
                 </div>
                 <div class="social-media d-flex justify-content-between">
                   <div class="whatsapp">
-                    <img src="/static/icons/whatsapp.svg" alt="" />
+                    <img src="~/assets/icons/whatsapp.svg" alt="" />
                   </div>
                   <div class="instagram">
-                    <img src="/static/icons/y-instagram.svg" alt="" />
+                    <img src="~/assets/icons/y-instagram.svg" alt="" />
                   </div>
                   <div class="website">
-                    <img src="/static/icons/r-website.svg   " alt="" />
+                    <img src="~/assets/icons/r-website.svg   " alt="" />
                   </div>
                 </div>
               </div>
@@ -86,7 +86,7 @@
             <div class="ads-details">
               <div class="form-bg">
                 <div class="publish-time">
-                  <img src="/static/icons/g-clock.svg" alt="" />
+                  <img src="~/assets/icons/g-clock.svg" alt="" />
                   <span>قبل يومين</span>
                 </div>
                 <div class="title-price d-flex justify-content-between">
@@ -99,20 +99,20 @@
                   class="proparities d-flex flex-wrap justify-content-between gap-2"
                 >
                   <div>
-                    <img src="/static/icons/cardIcon/bed.svg" />
+                    <img src="~/assets/icons/cardIcon/bed.svg" />
                     <span class="">3 غرف نوم</span>
                   </div>
                   <div>
-                    <img src="/static/icons/cardIcon/area.svg" />
+                    <img src="~/assets/icons/cardIcon/area.svg" />
                     <span class="">750 م2</span>
                   </div>
                   <div>
-                    <img src="/static/icons/cardIcon/bath.svg" />
+                    <img src="~/assets/icons/cardIcon/bath.svg" />
                     <span class="">3 حمامات</span>
                   </div>
                 </div>
                 <div class="address">
-                  <img src="/static/icons/address.svg" />
+                  <img src="~/assets/icons/address.svg" />
                   <span class="left-title">الفروانية، الأندلس</span>
                 </div>
                 <div class="border"></div>
@@ -131,23 +131,23 @@
                 </div>
                 <div class="details-items d-flex flex-wrap">
                   <div class="item">
-                    <img src="/static/icons/d-select.svg" alt="" />
+                    <img src="~/assets/icons/d-select.svg" alt="" />
                     <span>غرفة خدم</span>
                   </div>
                   <div class="item">
-                    <img src="/static/icons/d-select.svg" alt="" />
+                    <img src="~/assets/icons/d-select.svg" alt="" />
                     <span>حديقة خاصة</span>
                   </div>
                   <div class="item">
-                    <img src="/static/icons/d-select.svg" alt="" />
+                    <img src="~/assets/icons/d-select.svg" alt="" />
                     <span>كراج خاص</span>
                   </div>
                   <div class="item">
-                    <img src="/static/icons/d-select.svg" alt="" />
+                    <img src="~/assets/icons/d-select.svg" alt="" />
                     <span>تكييف مركزي</span>
                   </div>
                   <div class="item">
-                    <img src="/static/icons/d-select.svg" alt="" />
+                    <img src="~/assets/icons/d-select.svg" alt="" />
                     <span>حمام سباحة خاص</span>
                   </div>
                 </div>
@@ -157,23 +157,23 @@
                 </div>
                 <div class="details-items d-flex flex-wrap">
                   <div class="item">
-                    <img src="/static/icons/d-select.svg" alt="" />
+                    <img src="~/assets/icons/d-select.svg" alt="" />
                     <span>قريب من الخدمات</span>
                   </div>
                   <div class="item">
-                    <img src="/static/icons/d-select.svg" alt="" />
+                    <img src="~/assets/icons/d-select.svg" alt="" />
                     <span>سهل الدخول</span>
                   </div>
                   <div class="item">
-                    <img src="/static/icons/d-select.svg" alt="" />
+                    <img src="~/assets/icons/d-select.svg" alt="" />
                     <span>قريب من المسجد</span>
                   </div>
                   <div class="item">
-                    <img src="/static/icons/d-select.svg" alt="" />
+                    <img src="~/assets/icons/d-select.svg" alt="" />
                     <span>قريب من مركز الحي</span>
                   </div>
                   <div class="item">
-                    <img src="/static/icons/d-select.svg" alt="" />
+                    <img src="~/assets/icons/d-select.svg" alt="" />
                     <span>قريب من الحديقة</span>
                   </div>
                 </div> -->
@@ -185,7 +185,7 @@
               >
                 <div class="right d-flex align-items-center">
                   <div class="img-bg">
-                    <img src="/static/icons/Bank.svg" alt="" />
+                    <img src="~/assets/icons/Bank.svg" alt="" />
                   </div>
                   <span>هل تريد تقديم طلب تمويل؟</span>
                 </div>
@@ -193,7 +193,7 @@
                   <div
                     class="icon-bg d-flex justify-content-center align-items-center"
                   >
-                    <img src="/static/icons/w-left-arrow.svg" alt="" />
+                    <img src="~/assets/icons/w-left-arrow.svg" alt="" />
                   </div>
                 </div>
               </div>
@@ -250,7 +250,7 @@
 
       <div class="ads-section">
         <div class="ads d-flex justify-content-center">
-          <img src="/static/images/AD-4.png" />
+          <img src="~/assets/images/AD-4.png" />
         </div>
       </div> -->
     </CoreAppContainer>

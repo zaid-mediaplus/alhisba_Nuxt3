@@ -1,7 +1,7 @@
 <template>
   <div class="social-media-tap">
     <div class="tap-bg d-flex align-itens-center">
-      <img src="/static/icons/profile/plus.svg" alt="" />
+      <img src="~/assets/icons/profile/plus.svg" alt="" />
       <span>أضف حساب آخر</span>
     </div>
   </div>

@@ -7,7 +7,7 @@
         @click="showModal = !showModal"
       >
         <div class="icon-bg d-flex justify-content-center align-items-center">
-          <img src="/static/icons/video.svg" alt="" />
+          <img src="//icons/video.svg" alt="" />
         </div>
         <div class="title">
           <span>شاهد هذا الفيديو لمعرفة كيفية المشاركة</span>
@@ -58,43 +58,43 @@
 const items = ref([
   {
     id: 1,
-    icon: "/static/icons/justice.svg",
+    icon: "~/assets/icons/justice.svg",
     title: "وزارة العدل",
     date: "26/10/2022 - 10:00 AM",
   },
   {
     id: 1,
-    icon: "/static/icons/justice.svg",
+    icon: "~/assets/icons/justice.svg",
     title: "وزارة العدل",
     date: "26/10/2022 - 10:00 AM",
   },
   {
     id: 1,
-    icon: "/static/icons/eresco.svg",
+    icon: "~/assets/icons/eresco.svg",
     title: "الإنماء",
     date: "26/10/2022 - 10:00 AM",
   },
   {
     id: 1,
-    icon: "/static/icons/justice.svg",
+    icon: "~/assets/icons/justice.svg",
     title: "وزارة العدل",
     date: "26/10/2022 - 10:00 AM",
   },
   {
     id: 1,
-    icon: "/static/icons/justice.svg",
+    icon: "~/assets/icons/justice.svg",
     title: "وزارة العدل",
     date: "26/10/2022 - 10:00 AM",
   },
   {
     id: 1,
-    icon: "/static/icons/justice.svg",
+    icon: "~/assets/icons/justice.svg",
     title: "وزارة العدل",
     date: "26/10/2022 - 10:00 AM",
   },
   {
     id: 1,
-    icon: "/static/icons/justice.svg",
+    icon: "~/assets/icons/justice.svg",
     title: "وزارة العدل",
     date: "26/10/2022 - 10:00 AM",
   },

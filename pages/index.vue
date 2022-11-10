@@ -22,13 +22,13 @@
             class="addAds-btn position-relative d-flex justify-content-between align-items-center"
           >
             <div class="position-relative">
-              <img class="house" src="/static/icons/house.svg" />
+              <img class="house" src="~/assets/icons/house.svg" />
             </div>
             <div class="plus-1 position-absolute">
-              <img src="/static/icons/plus1.svg" />
+              <img src="~/assets/icons/plus1.svg" />
             </div>
             <span class="ads-btn-title">أضف إعلان</span>
-            <img class="plus2" src="/static/icons/plus2.svg" />
+            <img class="plus2" src="~/assets/icons/plus2.svg" />
           </div>
         </NuxtLink>
       </div>
@@ -132,8 +132,10 @@
       <div class="ads-section-2 d-flex justify-content-center">
         <div class="ads-slider d-flex justify-content-center">
           <swiper :slides-per-view="1" @swiper="onSwiper">
-            <swiper-slide> <img src="/static/images/AD-3.png" /> </swiper-slide>
-            <!-- <swiper-slide> <img src="/static/images/AD-3.png" /> </swiper-slide> -->
+            <swiper-slide>
+              <img src="~/assets/images/AD-3.png" />
+            </swiper-slide>
+            <!-- <swiper-slide> <img src="~/assets/images/AD-3.png" /> </swiper-slide> -->
           </swiper>
         </div>
       </div>
@@ -164,10 +166,10 @@
           </NuxtLink>
         </div>
         <div class="kuwait-right position-absolute">
-          <img src="/static/images/kuwait-1.svg" />
+          <img src="~/assets/images/kuwait-1.svg" />
         </div>
         <div class="kuwait-left position-absolute">
-          <img src="/static/images/kuwait-2.svg" />
+          <img src="~/assets/images/kuwait-2.svg" />
         </div>
       </div>
       <div class="alhisba-app-section">
@@ -176,12 +178,12 @@
             <div
               class="iphone d-flex justify-content-center align-items-center rounded-circle"
             >
-              <img src="/static/images/iphone.png" />
+              <img src="~/assets/images/iphone.png" />
             </div>
           </div>
           <div class="left-section">
             <div class="logo">
-              <img src="/static/images/Logo.svg" />
+              <img src="~/assets/images/Logo.svg" />
             </div>
             <div class="title">
               <span>تطبيق واحد لكل ما تحتاجه لعقارك</span>
@@ -193,7 +195,7 @@
               </span>
             </div>
             <div class="os-logos">
-              <img src="/static/images/os.svg" class="os-logo" />
+              <img src="~/assets/images/os.svg" class="os-logo" />
             </div>
           </div>
         </div>
@@ -223,10 +225,10 @@
         </div>
         <div class="footer-img">
           <div class="house-img position-absolute">
-            <img src="/static/images/blueHouse.svg" />
+            <img src="~/assets/images/blueHouse.svg" />
           </div>
           <div class="tree position-absolute">
-            <img src="/static/images/tree.svg" />
+            <img src="~/assets/images/tree.svg" />
           </div>
         </div>
       </div> -->
@@ -264,37 +266,37 @@ const items = [
   {
     title: "التقييم الفوري",
     path: "/evaluation",
-    icon: "/static/icons/evaluation.svg",
+    icon: "~/assets/icons/evaluation.svg",
   },
   {
     title: "الصفقات المسجلة",
     path: "/deals",
-    icon: "/static/icons/Registered.svg",
+    icon: "~/assets/icons/Registered.svg",
   },
   {
     title: "حسبة تكلفة البناء",
     path: "/",
-    icon: "/static/icons/cost.svg",
+    icon: "~/assets/icons/cost.svg",
   },
   {
     title: "مزادات عقارية",
     path: "/auctions",
-    icon: "/static/icons/Auctions.svg",
+    icon: "~/assets/icons/Auctions.svg",
   },
   {
     title: "التقييم الرسمي",
     path: "/officialevaluation",
-    icon: "/static/icons/off-Evaluation.svg",
+    icon: "~/assets/icons/off-Evaluation.svg",
   },
   {
     title: "تبادل الممتلكات",
     path: "/exchange",
-    icon: "/static/icons/Exchange.svg",
+    icon: "~/assets/icons/Exchange.svg",
   },
   {
     title: "بنك بوبيان",
     path: "/mortgage",
-    icon: "/static/images/insideHeader/mortgage-page.png",
+    icon: "~/assets/images/insideHeader/mortgage-page.png",
   },
 ];
 </script>

@@ -5,7 +5,7 @@
       @click="showModal = !showModal"
     >
       <div class="icon-bg d-flex justify-content-center align-items-center">
-        <img src="/static/icons/videoBg.svg" alt="" />
+        <img src="~/assets/icons/videoBg.svg" alt="" />
       </div>
       <div class="title">
         <span>شاهد هذا الفيديو لمعرفة كيفية المشاركة</span>
@@ -17,7 +17,7 @@
               class="modal-close-bg d-flex justify-content-center align-items-center"
               @click="showModal = false"
             >
-              <img src="/static/icons/close.svg" alt="close" />
+              <img src="~/assets/icons/close.svg" alt="close" />
             </div>
           </div>
           <iframe

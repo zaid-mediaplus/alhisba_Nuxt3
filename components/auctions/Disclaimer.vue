@@ -2,7 +2,7 @@
   <div class="disclaimer">
     <div class="bg d-flex align-items-center">
       <div class="icon-bg d-flex justify-content-center align-items-center">
-        <img src="/static/icons/Disclaimer.svg" alt="" />
+        <img src="~/assets/icons/Disclaimer.svg" alt="" />
       </div>
       <div class="title">
         <span>اضغط هنا لمعرفة الشروط و الأحكام</span>

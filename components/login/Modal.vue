@@ -4,13 +4,13 @@
       <div class="login-bg position-relative">
         <div class="close">
           <img
-            src="/static/icons/close.svg"
+            src="~/assets/icons/close.svg"
             alt="close"
             @click="showModal = false"
           />
         </div>
         <div class="logo d-flex justify-content-center">
-          <img src="/static/images/darkLogo.svg" alt="" />
+          <img src="~/assets/images/darkLogo.svg" alt="" />
         </div>
         <div class="header-bg position-absolute"></div>
         <!-- <LoginVerification /> -->

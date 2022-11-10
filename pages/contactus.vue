@@ -8,7 +8,7 @@
             <div
               class="icon-bg d-flex justify-content-center align-items-center"
             >
-              <img src="/static/icons/baddress.svg" alt="" />
+              <img src="~/assets/icons/baddress.svg" alt="" />
             </div>
             <div class="left">
               مدينة الكويت - القبلة - شارع الصالحية بناية سليمان اللهيب 3 -
@@ -19,7 +19,7 @@
             <div
               class="icon-bg d-flex justify-content-center align-items-center"
             >
-              <img src="/static/icons/cardIcon/Phone.svg" alt="" />
+              <img src="~/assets/icons/cardIcon/Phone.svg" alt="" />
             </div>
             <div class="left">+965 600 20 778</div>
           </div>
@@ -27,17 +27,17 @@
             <div
               class="icon-bg d-flex justify-content-center align-items-center"
             >
-              <img src="/static/icons/cardIcon/Message.svg" alt="" />
+              <img src="~/assets/icons/cardIcon/Message.svg" alt="" />
             </div>
             <div class="left">info@alhisba.com</div>
           </div>
           <div
             class="social-media d-flex justify-content-between align-items-center"
           >
-            <img src="/static/icons/d-instagram.svg" alt="" />
-            <img src="/static/icons/d-linkedin.svg" alt="" />
-            <img src="/static/icons/d-twitter.svg" alt="" />
-            <img src="/static/icons/d-facebook.svg" alt="" />
+            <img src="~/assets/icons/d-instagram.svg" alt="" />
+            <img src="~/assets/icons/d-linkedin.svg" alt="" />
+            <img src="~/assets/icons/d-twitter.svg" alt="" />
+            <img src="~/assets/icons/d-facebook.svg" alt="" />
           </div>
           <!-- <div class="map">
             <iframe
@@ -82,7 +82,7 @@
 </template>
 
 <script setup scoped>
-import contactUsIcon from "/static/icons/aboutus.svg";
+import contactUsIcon from "~/assets/icons/aboutus.svg";
 const news = ref(contactUsIcon);
 </script>
 

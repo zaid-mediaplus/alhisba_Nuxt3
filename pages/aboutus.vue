@@ -4,7 +4,7 @@
     <CoreAppContainer>
       <CoreItemContainer>
         <div class="main-logo">
-          <img src="/static/images/darkLogo.svg" alt="" />
+          <img src="~/assets/images/darkLogo.svg" alt="" />
         </div>
         <div class="about-alhisba">
           الموقع الالكتروني <span>ALHISBA.COM</span> وكذلك تطبيقات برنامج
@@ -24,12 +24,12 @@
             <div
               class="iphone d-flex justify-content-center align-items-center rounded-circle"
             >
-              <img src="/static/images/iphone.png" />
+              <img src="~/assets/images/iphone.png" />
             </div>
           </div>
           <div class="left-section">
             <div class="logo">
-              <img src="/static/images/Logo.svg" />
+              <img src="~/assets/images/Logo.svg" />
             </div>
             <div class="title">
               <span>تطبيق واحد لكل ما تحتاجه لعقارك</span>
@@ -41,7 +41,7 @@
               </span>
             </div>
             <div class="os-logos">
-              <img src="/static/images/os.svg" class="os-logo" />
+              <img src="~/assets/images/os.svg" class="os-logo" />
             </div>
           </div>
         </div>
@@ -71,10 +71,10 @@
         </div>
         <div class="footer-img">
           <div class="house-img position-absolute">
-            <img src="/static/images/blueHouse.svg" />
+            <img src="~/assets/images/blueHouse.svg" />
           </div>
           <div class="tree position-absolute">
-            <img src="/static/images/tree.svg" />
+            <img src="~/assets/images/tree.svg" />
           </div>
         </div>
       </div>
@@ -83,7 +83,7 @@
 </template>
 
 <script setup scoped>
-import aboutUsIcon from "/static/icons/aboutus.svg";
+import aboutUsIcon from "~/assets/icons/aboutus.svg";
 const aboutUs = ref(aboutUsIcon);
 </script>
 

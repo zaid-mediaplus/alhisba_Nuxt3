@@ -4,7 +4,7 @@
     :class="selectToggle() ? 'selected' : ''"
     @click="selectToggle()"
   >
-    <img :src="selectToggle() ? '' : '/static/icons/wSelect.svg'" alt="" />
+    <img :src="selectToggle() ? '' : '~/assets/icons/wSelect.svg'" alt="" />
   </div>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
   <div class="addadbtn">
     <div class="btn-bg d-flex justify-content-center align-items-center">
-      <img src="/static/icons/plus2.svg" alt="" />
+      <img src="~/assets/icons/plus2.svg" alt="" />
       <span>أضف إعلان</span>
     </div>
   </div>

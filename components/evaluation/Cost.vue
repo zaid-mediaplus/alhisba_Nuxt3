@@ -39,7 +39,7 @@
                 class="modal-close-bg d-flex justify-content-center align-items-center"
                 @click="showModal = false"
               >
-                <img src="/static/icons/close.svg" alt="close" />
+                <img src="~/assets/icons/close.svg" alt="close" />
               </div>
               <div class="title">
                 <span>إعرف الجودة لديك</span>
@@ -98,7 +98,7 @@
           @click="showModal = true"
         >
           <div class="btn-img">
-            <img src="/static/icons/info.svg" />
+            <img src="~/assets/icons/info.svg" />
           </div>
           <div>
             <span>اعرف الجودة لديك</span>

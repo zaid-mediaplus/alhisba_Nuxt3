@@ -44,7 +44,10 @@
       </div>
       <div class="search-btn d-flex">
         <div class="btn-bg d-flex justify-content-center align-items-center">
-          <img class="search-icon" src="/static/icons/filterIcons/search.svg" />
+          <img
+            class="search-icon"
+            src="~/assets/icons/filterIcons/search.svg"
+          />
           <span>بحث</span>
         </div>
       </div>
@@ -53,7 +56,7 @@
 </template>
 
 <script setup>
-import arrowIcon from "/static/icons/filterIcons/arrow.svg";
+import arrowIcon from "~/assets/icons/filterIcons/arrow.svg";
 
 const arrow = ref(arrowIcon);
 </script>

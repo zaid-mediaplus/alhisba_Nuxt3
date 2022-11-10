@@ -1,21 +1,10 @@
 <template>
   <div class="search">
     <div
-      class="
-        search-bg
-        d-flex
-        flex-column
-        justify-content-center
-        align-items-end
-      "
+      class="search-bg d-flex flex-column justify-content-center align-items-end"
     >
       <div
-        class="
-          search-input-bg
-          d-flex
-          justify-content-between
-          align-items-center
-        "
+        class="search-input-bg d-flex justify-content-between align-items-center"
       >
         <div class="search-input">
           <input type="text" placeholder="ابحث هنا عن أفضل تطابق لك" />
@@ -24,7 +13,7 @@
           <div class="btn-bg d-flex justify-content-center align-items-center">
             <img
               class="search-icon"
-              src="/static/icons/filterIcons/search.svg"
+              src="~/assets/icons/filterIcons/search.svg"
             />
             <span>بحث</span>
           </div>
@@ -35,10 +24,9 @@
   </div>
 </template>
 
-<script >
-</script>
+<script></script>
 
-<style lang="scss" >
+<style lang="scss">
 @import "../../static/sass/variables.scss";
 .search {
   margin-bottom: 45px;

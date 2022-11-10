@@ -6,7 +6,7 @@
     >
       <div class="right d-flex align-items-center">
         <div class="icon-bg d-flex justify-content-center align-items-center">
-          <img src="/static/icons/profile/b-notification.svg" alt="" />
+          <img src="~/assets/icons/profile/b-notification.svg" alt="" />
         </div>
         <div class="mid d-flex flex-column">
           <span class="top">{{ notification.title }}</span>

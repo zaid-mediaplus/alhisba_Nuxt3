@@ -3,7 +3,7 @@
     <div class="news">
       <div class="card d-flex flex-column">
         <div class="img-block position-relative">
-          <img class="card-img" src="/static/images/news-img.png" />
+          <img class="card-img" src="~/assets/images/news-img.png" />
         </div>
         <div class="description-block">
           <div class="title">
@@ -31,7 +31,7 @@
             class="submit-btn d-flex justify-content-between align-items-center"
           >
             <span>إقرأ المزيد</span>
-            <img src="/static/icons/cardIcon/l-w-arrow.svg" />
+            <img src="~/assets/icons/cardIcon/l-w-arrow.svg" />
           </div>
         </div>
       </div>

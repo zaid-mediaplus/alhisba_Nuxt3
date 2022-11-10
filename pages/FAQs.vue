@@ -1,7 +1,7 @@
 <template>
   <CoreInsideHeader
     title="أسئلة متكررة"
-    img="/static/icons/aboutus.svg"
+    img="~/assets/icons/aboutus.svg"
     bottom="-135px"
   />
   <CoreAppContainer>

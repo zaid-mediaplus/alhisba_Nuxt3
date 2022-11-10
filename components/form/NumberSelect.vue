@@ -9,12 +9,12 @@
       @click="showUsers"
     >
       <div class="reign">
-        <img src="/static/images/ku-flag.png" alt="" />
+        <img src="~/assets/images/ku-flag.png" alt="" />
         <span> (+965)</span>
       </div>
       <img
         class="arrow"
-        src="/static/icons/downarrow.svg"
+        src="~/assets/icons/downarrow.svg"
         :class="visible ? 'selected' : ''"
       />
     </div>
@@ -77,8 +77,8 @@ const props = defineProps({
 const visible = ref(false);
 const selected = ref(false);
 const currentSelectedIndex = ref(-1);
-const selectIcon = "/static/icons/select.svg";
-const downArrowIcon = "/static/icons/downarrow.svg";
+const selectIcon = "~/assets/icons/select.svg";
+const downArrowIcon = "~/assets/icons/downarrow.svg";
 const downArrow = ref(downArrowIcon);
 
 const showUsers = () => (visible.value = !visible.value);

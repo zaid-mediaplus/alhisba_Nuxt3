@@ -1,7 +1,7 @@
 <template>
   <div class="Subscribe">
     <div class="Subscribe-bg">
-      <img src="/static/icons/pro.svg" alt="" />
+      <img src="~/assets/icons/pro.svg" alt="" />
       <span>اشترك في "الحسبة برو"</span>
     </div>
   </div>

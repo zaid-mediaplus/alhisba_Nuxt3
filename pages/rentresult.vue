@@ -22,7 +22,7 @@
                     class="note d-flex justify-content-center align-items-center"
                     @click="showModal = !showModal"
                   >
-                    <img src="/static/icons/Disclaimer.svg" alt="" />
+                    <img src="~/assets/icons/Disclaimer.svg" alt="" />
                     <span>إخلاء مسؤولية الحسبة</span>
                     <CoreModal
                       :show="showModal"
@@ -34,7 +34,7 @@
                             class="modal-close-bg d-flex justify-content-center align-items-center"
                             @click="showModal = false"
                           >
-                            <img src="/static/icons/close.svg" alt="close" />
+                            <img src="~/assets/icons/close.svg" alt="close" />
                           </div>
                         </div>
                         <div
@@ -58,7 +58,7 @@
               <div
                 class="location d-flex justify-content-center align-items-center"
               >
-                <img src="/static/icons/b-address.svg" alt="" />
+                <img src="~/assets/icons/b-address.svg" alt="" />
                 <div class="address">
                   <span>المنطقة:</span>
                   <span class="address-name">الجابرية</span>
@@ -99,7 +99,7 @@
                     <div
                       class="select-quality-bg d-flex justify-content-center align-items-center"
                     >
-                      <img src="/static/icons/wSelect.svg" />
+                      <img src="~/assets/icons/wSelect.svg" />
                     </div>
                     <span class="selected-quality">متوسط</span>
                   </div>
@@ -120,7 +120,7 @@
               <div
                 class="share d-flex justify-content-center align-items-center"
               >
-                <img src="/static/icons/share.svg" />
+                <img src="~/assets/icons/share.svg" />
                 <span>مشاركة</span>
               </div>
             </div>
@@ -134,7 +134,7 @@
           >
             <div class="top d-flex justify-content-center align-items-center">
               <span class="calc-text">احسب القرض الخاص بك مع</span>
-              <img src="/static/icons/Bank.svg" />
+              <img src="~/assets/icons/Bank.svg" />
             </div>
             <div>
               <div
@@ -182,7 +182,7 @@
 
         <div class="ads-section">
           <div class="ads d-flex justify-content-center">
-            <img src="/static/images/L-AD-4.png" />
+            <img src="~/assets/images/L-AD-4.png" />
           </div>
         </div>
       </CoreAppContainer>

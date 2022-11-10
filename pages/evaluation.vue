@@ -38,13 +38,13 @@ const props = defineProps({
   selected: Boolean,
 });
 const items = ref([
-  { icon: "/static/icons/property.svg", title: "التقيم الفوري (الملكية)" },
-  { icon: "/static/icons/rent.svg", title: " التقيم الفوري (الايجار)" },
-  { icon: "/static/icons/cost.svg", title: " حسبة تكلفة البناء" },
-  { icon: "/static/icons/inheritance.svg", title: "الميراث " },
+  { icon: "~/assets/icons/property.svg", title: "التقيم الفوري (الملكية)" },
+  { icon: "~/assets/icons/rent.svg", title: " التقيم الفوري (الايجار)" },
+  { icon: "~/assets/icons/cost.svg", title: " حسبة تكلفة البناء" },
+  { icon: "~/assets/icons/inheritance.svg", title: "الميراث " },
 ]);
 
-import evaluationIcon from "/static/images/insideHeader/evaluation-page.png";
+import evaluationIcon from "~/assets/images/insideHeader/evaluation-page.png";
 
 const evaluation = ref(evaluationIcon);
 
@@ -52,10 +52,10 @@ const currentTapIndex = ref(0);
 
 const tabs = ref([]);
 
-import sellIcon from "/static/icons/property.svg";
-import rentIcon from "/static/icons/rent.svg";
-import costIcon from "/static/icons/cost.svg";
-import inheritanceIcon from "/static/icons/inheritance.svg";
+import sellIcon from "~/assets/icons/property.svg";
+import rentIcon from "~/assets/icons/rent.svg";
+import costIcon from "~/assets/icons/cost.svg";
+import inheritanceIcon from "~/assets/icons/inheritance.svg";
 
 const tapImages = ref([sellIcon, rentIcon, costIcon, inheritanceIcon]);
 </script>

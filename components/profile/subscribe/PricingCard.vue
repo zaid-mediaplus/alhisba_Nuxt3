@@ -2,7 +2,7 @@
   <div class="card-bg" :style="{ background: plan.background }">
     <div class="top-section d-flex align-items-center">
       <div class="image-bg d-flex justify-content-center align-items-center">
-        <img src="/static/icons/profile/bloulogo.svg" alt="" />
+        <img src="~/assets/icons/profile/bloulogo.svg" alt="" />
       </div>
       <div class="left-top">
         <div class="top-title">

@@ -1,7 +1,7 @@
 <template>
   <div class="notification-bg d-flex justify-content-center align-items-center">
     <div class="icon-bg d-flex justify-content-center align-items-center">
-      <img src="/static/icons/exclamation.svg" alt="" />
+      <img src="~/assets/icons/exclamation.svg" alt="" />
     </div>
     <div class="notification-content">
       <span>هذه النتيجة تعرض لك نتيجة 20٪ فقط من ميزانيتك</span>

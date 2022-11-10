@@ -10,9 +10,9 @@
       <CoreInsideHeaderContainer>
         <div class="bread-crumb position-relative">
           <span>الرئيسية </span>
-          <img src="/static/icons/ledt-g-arrow.svg" alt="" />
+          <img src="~/assets/icons/ledt-g-arrow.svg" alt="" />
           <span>خدمات الحسبة</span>
-          <img src="/static/icons/ledt-g-arrow.svg" alt="" />
+          <img src="~/assets/icons/ledt-g-arrow.svg" alt="" />
           <span class="last">التقييم الفوري</span>
         </div>
         <div class="content">
@@ -52,8 +52,8 @@ const props = defineProps({
   },
 });
 
-import logoIcon from "@/static/images/darkLogo.svg";
-import loginIcon from "@/static/icons/dLogin.svg";
+import logoIcon from "@~/assets/images/darkLogo.svg";
+import loginIcon from "@~/assets/icons/dLogin.svg";
 
 const logo = ref(logoIcon);
 const login = ref(loginIcon);

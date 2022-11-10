@@ -2,7 +2,7 @@
   <div class="realstate">
     <div class="card d-flex flex-row">
       <!-- <div class="img-block d-flex align-items-center position-relative">
-        <img class="card-img" src="/static/images/suggestion.png" />
+        <img class="card-img" src="~/assets/images/suggestion.png" />
       </div> -->
       <!-- <div
         class="area-name d-flex justify-content-center align-items-center position-absolute"
@@ -10,17 +10,17 @@
         <span>سلوى</span>
       </div> -->
       <div class="premium-flag position-absolute">
-        <img src="/static/icons/cardIcon/premium.svg " />
+        <img src="~/assets/icons/cardIcon/premium.svg " />
       </div>
       <!-- <div
         class="green position-absolute d-flex justify-content-center align-items-center"
       >
-        <img src="/static/icons/cardIcon/home.svg" />
+        <img src="~/assets/icons/cardIcon/home.svg" />
       </div> -->
 
       <div class="description-block d-flex flex-column">
         <div class="address">
-          <img src="/static/icons/b-address.svg" alt="" />
+          <img src="~/assets/icons/b-address.svg" alt="" />
           <span>صباح السالم</span>
         </div>
         <div class="d-flex justify-content-between align-items-baseline">
@@ -32,15 +32,15 @@
         <div class="proparities d-flex justify-content-between">
           <div class="right d-flex justify-content-between gap-2">
             <div>
-              <img src="/static/icons/cardIcon/bed.svg" />
+              <img src="~/assets/icons/cardIcon/bed.svg" />
               <span class="">3 غرف نوم</span>
             </div>
             <div>
-              <img src="/static/icons/cardIcon/area.svg" />
+              <img src="~/assets/icons/cardIcon/area.svg" />
               <span class="">750 م2</span>
             </div>
             <div>
-              <img src="/static/icons/cardIcon/bath.svg" />
+              <img src="~/assets/icons/cardIcon/bath.svg" />
               <span class="">3 حمامات</span>
             </div>
           </div>
@@ -51,21 +51,21 @@
           </div>
         </div>
         <!-- <div class="company-name">
-          <img src="/static/icons/cardIcon/user.svg" />
+          <img src="~/assets/icons/cardIcon/user.svg" />
           <span>شركة الأنوار للإستثمارات العقارية</span>
         </div> -->
         <div class="border"></div>
         <div class="contact d-flex gap-3">
           <div d-flex>
-            <img class="save" src="/static/icons/cardIcon/save.svg" />
+            <img class="save" src="~/assets/icons/cardIcon/save.svg" />
             <span>أضف إلى المفضلة</span>
           </div>
           <div d-flex>
-            <img src="/static/icons/cardIcon/Message.svg" />
+            <img src="~/assets/icons/cardIcon/Message.svg" />
             <span>تحدث</span>
           </div>
           <div d-flex>
-            <img src="/static/icons/cardIcon/Phone.svg" />
+            <img src="~/assets/icons/cardIcon/Phone.svg" />
             <span>اتصل</span>
           </div>
         </div>
@@ -79,7 +79,7 @@ const props = defineProps({
 });
 </script>
 <style lang="scss" scoped>
-@import "../../static/sass/variables.scss";
+@import "../..~/assets/sass/variables.scss";
 a {
   text-decoration: none;
 }

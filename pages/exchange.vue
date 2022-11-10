@@ -19,7 +19,7 @@
         <span class="sort">ترتيب بحسب:</span>
         <div class="by d-flex">
           <span>الأحدث إلى الأقدم </span>
-          <img src="/static/icons/downarrow.svg" alt="" />
+          <img src="~/assets/icons/downarrow.svg" alt="" />
         </div>
       </div>
     </div>
@@ -65,7 +65,7 @@
 </template>
 
 <script setup>
-import haederIcon from "/static/images/insideHeader/exchanging-page.png";
+import haederIcon from "~/assets/images/insideHeader/exchanging-page.png";
 
 const header = ref(haederIcon);
 </script>
