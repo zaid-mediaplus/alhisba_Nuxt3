@@ -30,5 +30,11 @@ export default defineNuxtConfig({
   //     scss: ['./assets/scss/*.scss']
   // },
   // Auto import components: https://go.nuxtjs.dev/config-components
+
+  // build: {
+  //   rollupOptions: {
+  //     // https://rollupjs.org/guide/en/#big-list-of-options
+  //   }
+  // },
   components: true,
 });
