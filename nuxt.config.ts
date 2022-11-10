@@ -26,7 +26,6 @@ export default defineNuxtConfig({
     "@/static/sass/variables.scss",
     "bootstrap/dist/css/bootstrap.min.css",
   ],
-
   // styleResources: {
   //     scss: ['./assets/scss/*.scss']
   // },
