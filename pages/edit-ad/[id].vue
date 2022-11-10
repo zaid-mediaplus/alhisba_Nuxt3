@@ -16,7 +16,7 @@
                 class="note-content d-flex justify-content-center align-items-center"
               >
                 <div class="icon-bg">
-                  <img src="/icons/info.svg" alt="" />
+                  <!-- <img src="/icons/info.svg" alt="" /> -->
                   <img src="/assets/icons/info.svg" alt="" />
                   <img src="~/assets/icons/info.svg" alt="" />
                 </div>
