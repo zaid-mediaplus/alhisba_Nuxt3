@@ -39,9 +39,9 @@ const props = defineProps({
   question: Object,
 });
 
-import closeIcon from "/static/icons/minus.svg";
+import closeIcon from "~/assets/icons/minus.svg";
 const close = ref(closeIcon);
-import plusIcon from "/static/icons/bplus.svg";
+import plusIcon from "~/assets/icons/bplus.svg";
 const plus = ref(plusIcon);
 
 const usersToggle = ref(false);
