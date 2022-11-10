@@ -51,7 +51,7 @@
 </template>
 
 <script setup>
-import selectIcon from "@~/assets/icons/select.svg";
+import selectIcon from "@/static/icons/select.svg";
 
 const dropdownContainer = ref(null);
 const dropdownItems = ref(null);
@@ -94,7 +94,7 @@ const onClose = () => {
   visible.value = false;
 };
 
-import downArrowIcon from "~/assets/icons/downarrow.svg";
+import downArrowIcon from "/static/icons/downarrow.svg";
 const downArrow = ref(downArrowIcon);
 </script>
 
