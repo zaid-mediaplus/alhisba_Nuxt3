@@ -48,7 +48,7 @@
       >
         <div class="contact d-flex gap-3">
           <div>
-            <img class="save" src="~/assets/icons/cardIcon/save.svg" />
+            <img class="save" src="/assets/icons/cardIcon/save.svg" />
           </div>
           <div>
             <img src="~/assets/icons/cardIcon/Message.svg" />
