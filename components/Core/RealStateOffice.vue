@@ -1,7 +1,7 @@
 <template>
   <div class="office">
     <div class="card">
-      <img class="card-img" src="~/assets/images/office.png" />
+      <img class="card-img" src="/images/office.png" />
       <div class="border"></div>
       <span>اسم المكتب</span>
     </div>

@@ -6,7 +6,7 @@
     >
       <div class="right d-flex align-items-center">
         <div class="image-bg d-flex justify-content-center align-items-center">
-          <img src="~/assets/icons/profile/bloulogo.svg" alt="" />
+          <img src="/icons/profile/bloulogo.svg" alt="" />
         </div>
         <div class="midle">
           <div class="main-title">

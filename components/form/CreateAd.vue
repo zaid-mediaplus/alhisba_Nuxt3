@@ -5,28 +5,28 @@
       <span>صور</span>
     </div>
     <div class="photo d-flex flex-wrap gap-3">
-      <img class="position-relative" src="~/assets/images/sell.png" alt="" />
+      <img class="position-relative" src="/images/sell.png" alt="" />
 
-      <img class="position-relative" src="~/assets/images/sell.png" alt="" />
-      <img class="position-relative" src="~/assets/images/sell.png" alt="" />
-      <img class="position-relative" src="~/assets/images/sell.png" alt="" />
-      <img class="position-relative" src="~/assets/images/sell.png" alt="" />
-      <img class="position-relative" src="~/assets/images/sell.png" alt="" />
-      <img class="position-relative" src="~/assets/images/sell.png" alt="" />
-      <img class="position-relative" src="~/assets/images/sell.png" alt="" />
-      <img class="position-relative" src="~/assets/images/sell.png" alt="" />
+      <img class="position-relative" src="/images/sell.png" alt="" />
+      <img class="position-relative" src="/images/sell.png" alt="" />
+      <img class="position-relative" src="/images/sell.png" alt="" />
+      <img class="position-relative" src="/images/sell.png" alt="" />
+      <img class="position-relative" src="/images/sell.png" alt="" />
+      <img class="position-relative" src="/images/sell.png" alt="" />
+      <img class="position-relative" src="/images/sell.png" alt="" />
+      <img class="position-relative" src="/images/sell.png" alt="" />
     </div>
     <div
       class="delete-bg position-absolute d-flex justify-content-center align-items-center"
     >
-      <img src="~/assets/icons/Delete.svg" alt="" />
+      <img src="/icons/Delete.svg" alt="" />
     </div>
     <div class="border"></div>
     <div class="d-flex justify-content-between">
       <div class="title">
         <span>فيديو</span>
       </div>
-      <img src="~/assets/icons/Delete.svg" alt="" />
+      <img src="/icons/Delete.svg" alt="" />
     </div>
     <video class="position-relative" width="100%" height="479.96px" controls>
       Your browser does not support the video tag.
@@ -34,7 +34,7 @@
     <div
       class="video-player position-absolute d-flex justify-content-center align-items-center"
     >
-      <img src="~/assets/icons/Polygon1.svg" alt="" />
+      <img src="/icons/Polygon1.svg" alt="" />
     </div>
     <div class="border"></div>
     <div class="title">
@@ -44,19 +44,19 @@
       class="attachment-bg d-flex justify-content-between align-items-center"
     >
       <div class="d-flex align-items-center">
-        <img src="~/assets/icons/document.svg" alt="" />
+        <img src="/icons/document.svg" alt="" />
         <span>اسم الملف </span>
       </div>
-      <img src="~/assets/icons/Delete.svg" alt="" />
+      <img src="/icons/Delete.svg" alt="" />
     </div>
     <div
       class="attachment-bg d-flex justify-content-between align-items-center"
     >
       <div class="d-flex align-items-center">
-        <img src="~/assets/icons/document.svg" alt="" />
+        <img src="/icons/document.svg" alt="" />
         <span>اسم الملف </span>
       </div>
-      <img src="~/assets/icons/Delete.svg" alt="" />
+      <img src="/icons/Delete.svg" alt="" />
     </div>
   </div>
 </template>

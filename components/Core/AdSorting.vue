@@ -88,7 +88,7 @@ const onClose = () => {
   visible.value = false;
 };
 
-import downArrowIcon from "~/assets/icons/downarrow.svg";
+import downArrowIcon from "/icons/downarrow.svg";
 const downArrow = ref(downArrowIcon);
 </script>
 

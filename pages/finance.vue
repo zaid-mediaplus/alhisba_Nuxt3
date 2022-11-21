@@ -151,7 +151,7 @@
 </template>
 
 <script setup>
-import haederIcon from "~/assets/images/insideHeader/mortgage-page.png";
+import haederIcon from "/images/insideHeader/mortgage-page.png";
 
 const header = ref(haederIcon);
 </script>

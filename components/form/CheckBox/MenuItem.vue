@@ -10,7 +10,7 @@
         "
       >
         <div class="img-arrow">
-          <img src="~/assets/icons/wSelect.svg" />
+          <img src="/icons/wSelect.svg" />
         </div>
       </div>
     </div>

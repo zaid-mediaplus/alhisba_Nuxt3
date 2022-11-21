@@ -27,7 +27,7 @@
                     class="note d-flex justify-content-center align-items-center"
                     @click="showModal = !showModal"
                   >
-                    <img src="~/assets/icons/Disclaimer.svg" alt="" />
+                    <img src="/icons/Disclaimer.svg" alt="" />
                     <span>إخلاء مسؤولية الحسبة</span>
                     <CoreModal
                       :show="showModal"
@@ -39,7 +39,7 @@
                             class="modal-close-bg d-flex justify-content-center align-items-center"
                             @click="showModal = false"
                           >
-                            <img src="~/assets/icons/close.svg" alt="close" />
+                            <img src="/icons/close.svg" alt="close" />
                           </div>
                         </div>
                         <div
@@ -63,7 +63,7 @@
               <div
                 class="location d-flex justify-content-center align-items-center"
               >
-                <img src="~/assets/icons/b-address.svg" alt="" />
+                <img src="/icons/b-address.svg" alt="" />
                 <div class="address">
                   <span>المنطقة:</span>
                   <span class="address-name">الجابرية</span>
@@ -156,7 +156,7 @@
               <div
                 class="share d-flex justify-content-center align-items-center"
               >
-                <img src="~/assets/icons/share.svg" />
+                <img src="/icons/share.svg" />
                 <span>مشاركة</span>
               </div>
               <div
@@ -174,7 +174,7 @@
           >
             <div class="top d-flex justify-content-center align-items-center">
               <span class="calc-text">احسب القرض الخاص بك مع</span>
-              <img src="~/assets/icons/Bank.svg" />
+              <img src="/icons/Bank.svg" />
             </div>
             <div>
               <div
@@ -225,7 +225,7 @@
         </div>
         <div class="ads-section">
           <div class="ads d-flex justify-content-center">
-            <img src="~/assets/images/L-AD-4.png" />
+            <img src="/images/L-AD-4.png" />
           </div>
         </div>
       </CoreAppContainer>

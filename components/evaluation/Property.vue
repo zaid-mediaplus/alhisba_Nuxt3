@@ -104,7 +104,7 @@
                     class="modal-close-bg d-flex justify-content-center align-items-center"
                     @click="showModal = false"
                   >
-                    <img src="~/assets/icons/close.svg" alt="close" />
+                    <img src="/icons/close.svg" alt="close" />
                   </div>
                   <div class="title">
                     <span>إعرف الجودة لديك</span>
@@ -163,7 +163,7 @@
               @click="showModal = true"
             >
               <div class="btn-img">
-                <img src="~/assets/icons/info.svg" />
+                <img src="/icons/info.svg" />
               </div>
               <div>
                 <span>اعرف الجودة لديك</span>
@@ -210,11 +210,11 @@
 
 <script setup>
 const items = ref([
-  { id: 1, icon: "~/assets/icons/building.svg", title: "مشترك" },
-  { id: 2, icon: "~/assets/icons/lights.svg", title: "أعمدة الانارة" },
-  { id: 3, icon: "~/assets/icons/bus.svg", title: " موقف باص" },
-  { id: 3, icon: "~/assets/icons/oneSide.svg", title: " شارع" },
-  { id: 3, icon: "~/assets/icons/twoSide.svg", title: " شارع عريض " },
+  { id: 1, icon: "/icons/building.svg", title: "مشترك" },
+  { id: 2, icon: "/icons/lights.svg", title: "أعمدة الانارة" },
+  { id: 3, icon: "/icons/bus.svg", title: " موقف باص" },
+  { id: 3, icon: "/icons/oneSide.svg", title: " شارع" },
+  { id: 3, icon: "/icons/twoSide.svg", title: " شارع عريض " },
 ]);
 const propertySpecifications = ref([
   { id: 1, title: "سهل الدخول" },

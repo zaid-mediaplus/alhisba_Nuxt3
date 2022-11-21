@@ -1,15 +1,15 @@
 <template>
   <div class="result-bar-bg d-flex justify-content-between align-items-center">
     <div class="d-flex align-items-center">
-      <img src="~/assets/icons/black-address.svg" alt="" />
+      <img src="/icons/black-address.svg" alt="" />
       <span>{{ property.street }}</span>
     </div>
     <div class="d-flex align-items-center">
-      <img src="~/assets/icons/place.svg" alt="" />
+      <img src="/icons/place.svg" alt="" />
       <span>{{ property.place }}</span>
     </div>
     <div class="d-flex align-items-center" s>
-      <img src="~/assets/icons/cardIcon/area.svg" alt="" />
+      <img src="/icons/cardIcon/area.svg" alt="" />
       <span>{{ property.area }}</span>
     </div>
     <div class="d-flex align-items-center border-right">

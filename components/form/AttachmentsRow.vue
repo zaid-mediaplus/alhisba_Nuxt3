@@ -1,7 +1,7 @@
 <template>
   <div class="attachment-bg d-flex justify-content-between align-items-center">
     <div class="right d-flex align-items-center">
-      <img src="~/assets/icons/document.svg" alt="" />
+      <img src="/icons/document.svg" alt="" />
       <span>{{ title }} </span>
     </div>
     <div class="left">

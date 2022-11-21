@@ -63,9 +63,9 @@ const props = defineProps({
   date: String,
 });
 
-import closeIcon from "~/assets/icons/minus.svg";
+import closeIcon from "/icons/minus.svg";
 const close = ref(closeIcon);
-import plusIcon from "~/assets/icons/bplus.svg";
+import plusIcon from "/icons/bplus.svg";
 const plus = ref(plusIcon);
 
 const usersToggle = ref(false);
@@ -83,7 +83,7 @@ const showUsers = () => (usersToggle.value = !usersToggle.value);
     overflow-x: scroll;
   }
   .accordion-bg {
-    background-image: url("~/assets/images/Watermark.png");
+    background-image: url("/images/Watermark.png");
     width: 100%;
     background-color: $secondary-text-color;
     border: 1px solid #eff0f7;

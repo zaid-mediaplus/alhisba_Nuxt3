@@ -2,7 +2,7 @@
   <div class="realstate-column">
     <div class="card d-flex flex-column">
       <div class="img-block position-relative">
-        <img class="card-img" src="~/assets/images/suggestion.png" />
+        <img class="card-img" src="/images/suggestion.png" />
       </div>
       <div
         class="area-name d-flex justify-content-center align-items-center position-absolute"
@@ -10,13 +10,13 @@
         <span>سلوى</span>
       </div>
       <div class="premium-flag position-absolute">
-        <img src="~/assets/icons/cardIcon/premium.svg " />
+        <img src="/icons/cardIcon/premium.svg " />
         <!-- {ispremium ? <img path="icons/cardIcon/premium.svg " /> : null} -->
       </div>
       <div
         class="green position-absolute d-flex justify-content-center align-items-center"
       >
-        <img src="~/assets/icons/cardIcon/home.svg" />
+        <img src="/icons/cardIcon/home.svg" />
       </div>
       <div class="description-block">
         <div class="d-flex justify-content-between align-items-baseline">
@@ -25,20 +25,20 @@
         </div>
         <div class="proparities d-flex justify-content-between gap-2">
           <div>
-            <img src="~/assets/icons/cardIcon/bed.svg" />
+            <img src="/icons/cardIcon/bed.svg" />
             <span class="">3</span>
           </div>
           <div>
-            <img src="~/assets/icons/cardIcon/area.svg" />
+            <img src="/icons/cardIcon/area.svg" />
             <span class="">750 م2</span>
           </div>
           <div>
-            <img src="~/assets/icons/cardIcon/bath.svg" />
+            <img src="/icons/cardIcon/bath.svg" />
             <span class="">3</span>
           </div>
         </div>
         <div class="company-name">
-          <img src="~/assets/icons/cardIcon/user.svg" />
+          <img src="/icons/cardIcon/user.svg" />
           <span>شركة الأنوار للإستثمارات العقارية</span>
         </div>
       </div>
@@ -51,10 +51,10 @@
             <img class="save" src="/assets/icons/cardIcon/save.svg" />
           </div>
           <div>
-            <img src="~/assets/icons/cardIcon/Message.svg" />
+            <img src="/icons/cardIcon/Message.svg" />
           </div>
           <div>
-            <img src="~/assets/icons/cardIcon/Phone.svg" />
+            <img src="/icons/cardIcon/Phone.svg" />
           </div>
         </div>
         <div class="price">

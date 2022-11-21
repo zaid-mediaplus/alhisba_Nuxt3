@@ -61,7 +61,7 @@
             />
           </div>
           <div class="logo d-flex justify-content-center">
-            <img src="~/assets/images/darkLogo.svg" alt="" />
+            <img src="/images/darkLogo.svg" alt="" />
           </div>
           <div class="header-bg position-absolute"></div>
           <LoginPhoneNumber v-if="currentloginIndex == 0" />
@@ -95,7 +95,7 @@
             />
           </div>
           <div class="logo d-flex justify-content-center">
-            <img src="~/assets/images/darkLogo.svg" alt="" />
+            <img src="/images/darkLogo.svg" alt="" />
           </div>
           <div class="header-bg position-absolute"></div>
           <div class="create-account-title">
@@ -135,10 +135,10 @@ const props = defineProps({
   },
 });
 
-import closeIcon from "~/assets/icons/close.svg";
+import closeIcon from "/icons/close.svg";
 const close = ref(closeIcon);
 
-import backIcon from "~/assets/icons/back-arrow.svg";
+import backIcon from "/icons/back-arrow.svg";
 const back = ref(backIcon);
 
 const currentregistrationIndex = ref(0);

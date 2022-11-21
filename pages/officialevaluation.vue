@@ -62,7 +62,7 @@
                 class="dropdown-full d-flex justify-content-between align-items-center"
               >
                 <span>قائمة المثمنين المعتمدين </span>
-                <img src="~/assets/icons/downarrow.svg" alt="arrow" />
+                <img src="/icons/downarrow.svg" alt="arrow" />
               </div> -->
               </div>
               <div class="specifications d-flex align-items-baseline">
@@ -157,13 +157,13 @@
 
 <script setup>
 const items = ref([
-  { id: 1, icon: "~/assets/icons/document.svg", title: "وثيقة الملكية" },
-  { id: 2, icon: "~/assets/icons/document.svg", title: "البطاقة المدنية" },
-  { id: 3, icon: "~/assets/icons/photo.svg", title: " صورة العقار" },
-  { id: 3, icon: "~/assets/icons/document.svg", title: " مستند آخر" },
+  { id: 1, icon: "/icons/document.svg", title: "وثيقة الملكية" },
+  { id: 2, icon: "/icons/document.svg", title: "البطاقة المدنية" },
+  { id: 3, icon: "/icons/photo.svg", title: " صورة العقار" },
+  { id: 3, icon: "/icons/document.svg", title: " مستند آخر" },
 ]);
 
-import haederIcon from "~/assets/images/insideHeader/off-evaluation-page.png";
+import haederIcon from "/images/insideHeader/off-evaluation-page.png";
 
 const header = ref(haederIcon);
 </script>

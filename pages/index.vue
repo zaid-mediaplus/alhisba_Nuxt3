@@ -22,13 +22,13 @@
             class="addAds-btn position-relative d-flex justify-content-between align-items-center"
           >
             <div class="position-relative">
-              <img class="house" src="~/assets/icons/house.svg" />
+              <img class="house" src="/icons/house.svg" />
             </div>
             <div class="plus-1 position-absolute">
-              <img src="~/assets/icons/plus1.svg" />
+              <img src="/icons/plus1.svg" />
             </div>
             <span class="ads-btn-title">أضف إعلان</span>
-            <img class="plus2" src="~/assets/icons/plus2.svg" />
+            <img class="plus2" src="/icons/plus2.svg" />
           </div>
         </NuxtLink>
       </div>
@@ -133,9 +133,9 @@
         <div class="ads-slider d-flex justify-content-center">
           <swiper :slides-per-view="1" @swiper="onSwiper">
             <swiper-slide>
-              <img src="~/assets/images/AD-3.png" />
+              <img src="/images/AD-3.png" />
             </swiper-slide>
-            <!-- <swiper-slide> <img src="~/assets/images/AD-3.png" /> </swiper-slide> -->
+            <!-- <swiper-slide> <img src="/images/AD-3.png" /> </swiper-slide> -->
           </swiper>
         </div>
       </div>
@@ -166,10 +166,10 @@
           </NuxtLink>
         </div>
         <div class="kuwait-right position-absolute">
-          <img src="~/assets/images/kuwait-1.svg" />
+          <img src="/images/kuwait-1.svg" />
         </div>
         <div class="kuwait-left position-absolute">
-          <img src="~/assets/images/kuwait-2.svg" />
+          <img src="/images/kuwait-2.svg" />
         </div>
       </div>
       <div class="alhisba-app-section">
@@ -178,12 +178,12 @@
             <div
               class="iphone d-flex justify-content-center align-items-center rounded-circle"
             >
-              <img src="~/assets/images/iphone.png" />
+              <img src="/images/iphone.png" />
             </div>
           </div>
           <div class="left-section">
             <div class="logo">
-              <img src="~/assets/images/Logo.svg" />
+              <img src="/images/Logo.svg" />
             </div>
             <div class="title">
               <span>تطبيق واحد لكل ما تحتاجه لعقارك</span>
@@ -195,7 +195,7 @@
               </span>
             </div>
             <div class="os-logos">
-              <img src="~/assets/images/os.svg" class="os-logo" />
+              <img src="/images/os.svg" class="os-logo" />
             </div>
           </div>
         </div>
@@ -225,10 +225,10 @@
         </div>
         <div class="footer-img">
           <div class="house-img position-absolute">
-            <img src="~/assets/images/blueHouse.svg" />
+            <img src="/images/blueHouse.svg" />
           </div>
           <div class="tree position-absolute">
-            <img src="~/assets/images/tree.svg" />
+            <img src="/images/tree.svg" />
           </div>
         </div>
       </div> -->
@@ -266,37 +266,37 @@ const items = [
   {
     title: "التقييم الفوري",
     path: "/evaluation",
-    icon: "~/assets/icons/evaluation.svg",
+    icon: "/icons/evaluation.svg",
   },
   {
     title: "الصفقات المسجلة",
     path: "/deals",
-    icon: "~/assets/icons/Registered.svg",
+    icon: "/icons/Registered.svg",
   },
   {
     title: "حسبة تكلفة البناء",
     path: "/",
-    icon: "~/assets/icons/cost.svg",
+    icon: "/icons/cost.svg",
   },
   {
     title: "مزادات عقارية",
     path: "/auctions",
-    icon: "~/assets/icons/Auctions.svg",
+    icon: "/icons/Auctions.svg",
   },
   {
     title: "التقييم الرسمي",
     path: "/officialevaluation",
-    icon: "~/assets/icons/off-Evaluation.svg",
+    icon: "/icons/off-Evaluation.svg",
   },
   {
     title: "تبادل الممتلكات",
     path: "/exchange",
-    icon: "~/assets/icons/Exchange.svg",
+    icon: "/icons/Exchange.svg",
   },
   {
     title: "بنك بوبيان",
     path: "/mortgage",
-    icon: "~/assets/images/insideHeader/mortgage-page.png",
+    icon: "/images/insideHeader/mortgage-page.png",
   },
 ];
 </script>

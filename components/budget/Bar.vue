@@ -13,7 +13,7 @@
         <span>{{ item.number }}</span>
       </div>
       <div class="left-arrow">
-        <img src="~/assets/icons/left-s-arrow.svg" alt="" />
+        <img src="/icons/left-s-arrow.svg" alt="" />
       </div>
     </div>
   </div>

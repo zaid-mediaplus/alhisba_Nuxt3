@@ -4,27 +4,27 @@
       <div class="footer-sections d-flex flex-wrap justify-content-start">
         <div class="contact-us">
           <div class="logo">
-            <img src="~/assets/images/Logo.svg" />
+            <img src="/images/Logo.svg" />
           </div>
           <div class="phone pb-3 pt-5">
-            <img src="~/assets/icons/mobile.svg" />
+            <img src="/icons/mobile.svg" />
             <span class="icon pe-2">+965-60020-778</span>
           </div>
           <div class="email pb-3">
-            <img src="~/assets/icons/email.svg" />
+            <img src="/icons/email.svg" />
             <span class="icon pe-2"
               ><a href="mailto:info@alhisba.com">info@alhisba.com</a></span
             >
           </div>
           <div class="time">
-            <img src="~/assets/icons/clock.svg" />
+            <img src="/icons/clock.svg" />
             <span class="icon pe-2">09:30 - 16:00</span>
           </div>
           <div class="social-icon">
-            <img src="~/assets/icons/instagram.svg" />
-            <img src="~/assets/icons/linkedin.svg" />
-            <img src="~/assets/icons/twitter.svg" />
-            <img src="~/assets/icons/facebook.svg" />
+            <img src="/icons/instagram.svg" />
+            <img src="/icons/linkedin.svg" />
+            <img src="/icons/twitter.svg" />
+            <img src="/icons/facebook.svg" />
           </div>
         </div>
         <div class="services">
@@ -54,7 +54,7 @@
           </div>
         </div>
         <div class="left-img">
-          <img src="~/assets/icons/footer.svg" alt="" />
+          <img src="/icons/footer.svg" alt="" />
         </div>
       </div>
       <div class="bottom-section d-flex align-items-center flex-wrap">

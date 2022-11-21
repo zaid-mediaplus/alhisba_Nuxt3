@@ -17,7 +17,7 @@
               >
                 <div class="icon-bg">
                   <!-- <img src="/icons/info.svg" alt="" /> -->
-                  <!-- <img src="~/assets/icons/info.svg" alt="" /> -->
+                  <!-- <img src="/icons/info.svg" alt="" /> -->
                   <img src="/icons/Info.svg" alt="" />
                 </div>
                 <span>عدد الإعلانات المتبقية لديك: 3</span>
@@ -80,14 +80,14 @@
 const props = defineProps({
   selected: Boolean,
 });
-import photoIcon from "~/assets/icons/photo.svg";
-import videoIcon from "~/assets/icons/vidio-icon.svg";
-import documentIcon from "~/assets/icons/document.svg";
+import photoIcon from "/icons/photo.svg";
+import videoIcon from "/icons/vidio-icon.svg";
+import documentIcon from "/icons/document.svg";
 const attatchmentImages = ref([photoIcon, videoIcon, documentIcon]);
 const items = ref([
-  { id: 1, icon: "~/assets/icons/photo.svg", title: "أضف إلى حد 9 صور" },
-  { id: 3, icon: "~/assets/icons/vidio-icon.svg", title: "أضف فيديو " },
-  { id: 2, icon: "~/assets/icons/document.svg", title: "أضف مستند" },
+  { id: 1, icon: "/icons/photo.svg", title: "أضف إلى حد 9 صور" },
+  { id: 3, icon: "/icons/vidio-icon.svg", title: "أضف فيديو " },
+  { id: 2, icon: "/icons/document.svg", title: "أضف مستند" },
 ]);
 const taps = ref([
   {
@@ -116,11 +116,11 @@ const taps = ref([
     icon: exchangeIcon,
   },
 ]);
-import sellIcon from "~/assets/icons/property.svg";
-import rentIcon from "~/assets/icons/rent.svg";
-import wantedSellIcon from "~/assets/icons/property.svg";
-import wantedRentIcon from "~/assets/icons/rent.svg";
-import exchangeIcon from "~/assets/icons/Exchange.svg";
+import sellIcon from "/icons/property.svg";
+import rentIcon from "/icons/rent.svg";
+import wantedSellIcon from "/icons/property.svg";
+import wantedRentIcon from "/icons/rent.svg";
+import exchangeIcon from "/icons/Exchange.svg";
 
 const tapImages = ref([
   sellIcon,
@@ -136,11 +136,11 @@ const tabs = ref([]);
 const select = ref(false);
 const selectToggle = () => (select.value = !select.value);
 
-import haederIcon from "~/assets/icons/advertisement.svg";
+import haederIcon from "/icons/advertisement.svg";
 
 const header = ref(haederIcon);
 
-// import infoRef from "~/assets/icons/info.svg";
+// import infoRef from "/icons/info.svg";
 // const infoSvg = ref(infoRef);
 </script>
 

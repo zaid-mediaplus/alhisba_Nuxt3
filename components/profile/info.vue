@@ -100,32 +100,32 @@
 <script setup>
 const items = ref([
   {
-    icon: "~/assets/icons/profile/facebook.svg",
+    icon: "/icons/profile/facebook.svg",
     title: "فيسبوك",
-    select: "~/assets/icons/select.svg",
+    select: "/icons/select.svg",
     path: " ",
     bgcolor: "rgba(7, 138, 251, 0.1);",
   },
   {
-    icon: "~/assets/icons/whatsapp.svg",
+    icon: "/icons/whatsapp.svg",
     title: "واتساب",
-    select: "~/assets/icons/select.svg",
+    select: "/icons/select.svg",
     path: " ",
     bgcolor: "rgba(10, 197, 129, 0.1);",
   },
   {
-    icon: "~/assets/icons/r-website.svg",
+    icon: "/icons/r-website.svg",
     title: "www.website.com ",
-    select: "~/assets/icons/select.svg",
+    select: "/icons/select.svg",
     path: " ",
     bgcolor: "rgba(255, 115, 92, 0.15);",
   },
 ]);
 
-import facebookIcon from "~/assets/icons/profile/facebook.svg";
-import whatsappIcon from "~/assets/icons/whatsapp.svg";
-import websiteIcon from "~/assets/icons/r-website.svg";
-import selectIcon from "~/assets/icons/select.svg";
+import facebookIcon from "/icons/profile/facebook.svg";
+import whatsappIcon from "/icons/whatsapp.svg";
+import websiteIcon from "/icons/r-website.svg";
+import selectIcon from "/icons/select.svg";
 const select = ref(selectIcon);
 const mediaIcons = ref([facebookIcon, whatsappIcon, websiteIcon]);
 </script>

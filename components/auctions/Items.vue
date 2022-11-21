@@ -10,7 +10,7 @@
       </div>
     </div>
     <div class="arrow">
-      <img src="~/assets/icons/leftarrow.svg" alt="" />
+      <img src="/icons/leftarrow.svg" alt="" />
     </div>
   </div>
 </template>

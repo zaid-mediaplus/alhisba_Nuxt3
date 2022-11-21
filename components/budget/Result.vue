@@ -61,7 +61,7 @@
 
       <!-- <div class="ads-section">
         <div class="ads d-flex justify-content-center">
-          <img src="~/assets/images/AD-4.png" />
+          <img src="/images/AD-4.png" />
         </div>
       </div> -->
     </CoreAppContainer>
@@ -71,35 +71,35 @@
 <script setup scoped>
 const items = ref([
   {
-    icon: "~/assets/icons/blueHouse.svg",
+    icon: "/icons/blueHouse.svg",
     title: "فروانية - قطعة 4",
     area: "750",
     price: "ك.د 264,500",
     date: "26.10.2021",
   },
   {
-    icon: "~/assets/icons/blueHouse.svg",
+    icon: "/icons/blueHouse.svg",
     title: " غرب عبدالله المبارك",
     area: "750",
     price: "ك.د 264,500",
     date: "26.10.2021",
   },
   {
-    icon: "~/assets/icons/Land.svg",
+    icon: "/icons/Land.svg",
     title: " الأندلس ",
     area: "750",
     price: "ك.د 264,500",
     date: "26.10.2021",
   },
   {
-    icon: "~/assets/icons/blueHouse.svg",
+    icon: "/icons/blueHouse.svg",
     title: " مدينة صباح الأحمد البحرية  ",
     area: "750",
     price: "ك.د 264,500",
     date: "26.10.2021",
   },
   {
-    icon: "~/assets/icons/blueHouse.svg",
+    icon: "/icons/blueHouse.svg",
     title: "إشبيلية",
     area: "750",
     price: "ك.د 264,500",

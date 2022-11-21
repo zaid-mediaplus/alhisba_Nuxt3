@@ -2,7 +2,7 @@
   <div>
     <CoreInsideHeader
       title="الشروط والأحكام"
-      img="~/assets/icons/aboutus.svg"
+      img="/icons/aboutus.svg"
       bottom="-135px"
     />
     <CoreAppContainer>

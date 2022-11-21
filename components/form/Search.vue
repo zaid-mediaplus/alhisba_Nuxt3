@@ -13,7 +13,7 @@
           <div class="btn-bg d-flex justify-content-center align-items-center">
             <img
               class="search-icon"
-              src="~/assets/icons/filterIcons/search.svg"
+              src="/icons/filterIcons/search.svg"
             />
             <span>بحث</span>
           </div>

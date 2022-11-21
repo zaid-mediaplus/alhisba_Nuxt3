@@ -1,7 +1,7 @@
 <template>
   <NuxtLink :to="path">
     <div class="back-btn">
-      <img src="~/assets/icons/rightArrow.svg" alt="" />
+      <img src="/icons/rightArrow.svg" alt="" />
       <span class="title">{{ title }}</span>
     </div>
   </NuxtLink>

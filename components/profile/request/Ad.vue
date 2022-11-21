@@ -3,7 +3,7 @@
     <div class="card">
       <div class="top-seaction d-flex flex-row">
         <div class="img-block position-relative">
-          <img class="card-img" src="~/assets/images/ad-profile.svg" />
+          <img class="card-img" src="/images/ad-profile.svg" />
         </div>
         <div
           class="area-name d-flex justify-content-center align-items-center position-absolute"
@@ -13,7 +13,7 @@
         <!-- <div
           class="green position-absolute d-flex justify-content-center align-items-center"
         >
-          <img src="~/assets/icons/cardIcon/home.svg" />
+          <img src="/icons/cardIcon/home.svg" />
         </div> -->
         <div class="description-block d-flex flex-column">
           <div class="d-flex justify-content-between align-items-baseline">
@@ -21,20 +21,20 @@
           </div>
           <div class="proparities d-flex justify-content-between gap-2">
             <div>
-              <img src="~/assets/icons/cardIcon/bed.svg" />
+              <img src="/icons/cardIcon/bed.svg" />
               <span class="">3</span>
             </div>
             <div>
-              <img src="~/assets/icons/cardIcon/area.svg" />
+              <img src="/icons/cardIcon/area.svg" />
               <span class="">750 م2</span>
             </div>
             <div>
-              <img src="~/assets/icons/cardIcon/bath.svg" />
+              <img src="/icons/cardIcon/bath.svg" />
               <span class="">3</span>
             </div>
           </div>
           <div class="company-name">
-            <img src="~/assets/icons/cardIcon/user.svg" />
+            <img src="/icons/cardIcon/user.svg" />
             <span>أحمد يوسف سالم</span>
           </div>
         </div>
@@ -46,7 +46,7 @@
             <div
               class="status-bg d-flex justify-content-center align-items-center"
             >
-              <img src="~/assets/icons/wSelect.svg" alt="" />
+              <img src="/icons/wSelect.svg" alt="" />
             </div>
             <div class="status-text"><span>الحالة</span></div>
           </div>
@@ -57,7 +57,7 @@
         class="bottom-section d-flex justify-content-between align-items-center"
       >
         <div class="edit-section">
-          <img src="~/assets/icons/profile/edit.svg" alt="" />
+          <img src="/icons/profile/edit.svg" alt="" />
           <span>تعديل</span>
         </div>
         <ProfileSubscribeBtn />

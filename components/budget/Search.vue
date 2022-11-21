@@ -18,32 +18,32 @@
 <script setup>
 const items = ref([
   {
-    icon: "~/assets/icons/blueHouse.svg",
+    icon: "/icons/blueHouse.svg",
     title: "اليرموك",
     number: "8",
   },
   {
-    icon: "~/assets/icons/blueHouse.svg",
+    icon: "/icons/blueHouse.svg",
     title: "قادسية",
     number: "2",
   },
   {
-    icon: "~/assets/icons/Land.svg",
+    icon: "/icons/Land.svg",
     title: "سلوى",
     number: "5",
   },
   {
-    icon: "~/assets/icons/blueHouse.svg",
+    icon: "/icons/blueHouse.svg",
     title: "الشامية",
     number: "2",
   },
   {
-    icon: "~/assets/icons/blueHouse.svg",
+    icon: "/icons/blueHouse.svg",
     title: "سالمية",
     number: "4",
   },
   {
-    icon: "~/assets/icons/blueHouse.svg",
+    icon: "/icons/blueHouse.svg",
     title: "سلوى",
     number: "3",
   },

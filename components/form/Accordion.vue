@@ -32,7 +32,7 @@
         <div class="bottom-section d-flex justify-content-between">
           <div class="right-bottom">
             <div class="address-bg">
-              <img src="~/assets/icons/b-address.svg" alt="" />
+              <img src="/icons/b-address.svg" alt="" />
               <span>562 بطن وظهر - طريق الفحيحيل</span>
             </div>
           </div>
@@ -77,9 +77,9 @@ const props = defineProps({
   date: String,
 });
 
-import closeIcon from "~/assets/icons/minus.svg";
+import closeIcon from "/icons/minus.svg";
 const close = ref(closeIcon);
-import plusIcon from "~/assets/icons/bplus.svg";
+import plusIcon from "/icons/bplus.svg";
 const plus = ref(plusIcon);
 
 const usersToggle = ref(false);

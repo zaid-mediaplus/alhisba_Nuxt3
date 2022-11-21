@@ -3,7 +3,7 @@
     <div class="option-button d-flex flex-column align-items-center">
       <div class="option">
         <div class="img-arrow">
-          <img src="~/assets/icons/wSelect.svg" />
+          <img src="/icons/wSelect.svg" />
         </div>
       </div>
       <div class="option-name">

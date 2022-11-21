@@ -4,14 +4,14 @@
       <div>
         <img
           class="position-relative"
-          src="~/assets/icons/profile-picture.svg"
+          src="/icons/profile-picture.svg"
           alt=""
         />
       </div>
       <div class="edit-icon">
         <!-- <img
           class="position-absolute"
-          src="~/assets/icons/profile/profileedit.svg"
+          src="/icons/profile/profileedit.svg"
           alt=""
         /> -->
       </div>
@@ -19,7 +19,7 @@
         <span>أحمد يوسف سالم</span>
       </div>
       <div class="profile-type">
-        <img src="~/assets/icons/profile/business-account.svg" alt="" />
+        <img src="/icons/profile/business-account.svg" alt="" />
         <span>حساب تجاري</span>
       </div>
       <div class="taps d-flex flex-column align-items-start">
@@ -37,7 +37,7 @@
         </div>
         <div class="exit-tap-bg d-flex">
           <div class="exit-bg d-flex justify-content-center align-items-center">
-            <img src="~/assets/icons/profile/exit.svg" alt="" />
+            <img src="/icons/profile/exit.svg" alt="" />
           </div>
           <span class="exit-text">تسجيل الخروج</span>
         </div>
@@ -48,18 +48,18 @@
 
 <script setup>
 const items = ref([
-  { icon: "~/assets/icons/profile/your-profile.svg", title: "حسابك" },
-  { icon: "~/assets/icons/profile/orders.svg", title: "طلباتك" },
-  { icon: "~/assets/icons/profile/packet.svg", title: "متابعة الحزم" },
-  { icon: "~/assets/icons/profile/notification.svg", title: "التنبيهات" },
-  { icon: "~/assets/icons/profile/favorite.svg", title: "المفضلة" },
+  { icon: "/icons/profile/your-profile.svg", title: "حسابك" },
+  { icon: "/icons/profile/orders.svg", title: "طلباتك" },
+  { icon: "/icons/profile/packet.svg", title: "متابعة الحزم" },
+  { icon: "/icons/profile/notification.svg", title: "التنبيهات" },
+  { icon: "/icons/profile/favorite.svg", title: "المفضلة" },
 ]);
 
-import yourProfileIcon from "~/assets/icons/profile/your-profile.svg";
-import orderIcon from "~/assets/icons/profile/orders.svg";
-import packetIcon from "~/assets/icons/profile/packet.svg";
-import notificationIcon from "~/assets/icons/profile/notification.svg";
-import favoriteIcon from "~/assets/icons/profile/favorite.svg";
+import yourProfileIcon from "/icons/profile/your-profile.svg";
+import orderIcon from "/icons/profile/orders.svg";
+import packetIcon from "/icons/profile/packet.svg";
+import notificationIcon from "/icons/profile/notification.svg";
+import favoriteIcon from "/icons/profile/favorite.svg";
 
 const sideBarTap = ref([
   yourProfileIcon,

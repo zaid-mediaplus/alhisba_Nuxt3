@@ -5,7 +5,7 @@
         <div v-show="showBtn">
           <img
             class="setting-icon"
-            src="~/assets/icons/filterIcons/settings.svg"
+            src="/icons/filterIcons/settings.svg"
             @click="showModal = true"
           />
         </div>
@@ -16,7 +16,7 @@
                 @click="showModal = false"
                 class="modal-close-bg d-flex justify-content-center align-items-center"
               >
-                <img src="~/assets/icons/close.svg" alt="close" />
+                <img src="/icons/close.svg" alt="close" />
               </div>
               <div class="title">
                 <span>المرشحات</span>
@@ -192,7 +192,7 @@
             >
               <img
                 class="search-icon"
-                src="~/assets/icons/filterIcons/search.svg"
+                src="/icons/filterIcons/search.svg"
               />
               <span>بحث</span>
             </div>
@@ -205,7 +205,7 @@
 </template>
 
 <script setup>
-import arrowIcon from "~/assets/icons/filterIcons/arrow.svg";
+import arrowIcon from "/icons/filterIcons/arrow.svg";
 
 const arrow = ref(arrowIcon);
 

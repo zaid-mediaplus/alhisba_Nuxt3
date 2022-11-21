@@ -5,7 +5,7 @@
     >
       <div class="right-section d-flex">
         <div class="image">
-          <img src="~/assets/icons/off-Evaluation.svg" alt="" />
+          <img src="/icons/off-Evaluation.svg" alt="" />
         </div>
         <div class="midle-section">
           <div class="main-title">
@@ -25,7 +25,7 @@
         </div>
       </div>
       <div class="left">
-        <img src="~/assets/icons/profile/download.svg" alt="" />
+        <img src="/icons/profile/download.svg" alt="" />
       </div>
     </div>
   </div>

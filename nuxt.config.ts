@@ -28,7 +28,7 @@ export default defineNuxtConfig({
     "bootstrap/dist/css/bootstrap.min.css",
   ],
   // styleResources: {
-  //     scss: ['.~/assets/scss/*.scss']
+  //     scss: ['./scss/*.scss']
   // },
   // Auto import components: https://go.nuxtjs.dev/config-components
 

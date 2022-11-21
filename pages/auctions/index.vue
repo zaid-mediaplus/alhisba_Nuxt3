@@ -34,7 +34,7 @@
 </template>
 
 <script setup>
-import image from "~/assets/images/insideHeader/auctions-page.png";
+import image from "/images/insideHeader/auctions-page.png";
 
 const headerImage = ref(image);
 

@@ -27,7 +27,7 @@
             <span class="sort">ترتيب بحسب:</span>
             <div class="by d-flex">
               <!-- <span>الأحدث إلى الأقدم </span>
-            <img src="~/assets/icons/downarrow.svg" alt="" /> -->
+            <img src="/icons/downarrow.svg" alt="" /> -->
               <CoreAdSorting
                 title="الأحدث إلى الأقدم"
                 :items="['الأقدم الى الأحدث', 'TEST', 'TEST', 'TEST', 'TEST']"
@@ -63,22 +63,22 @@
 
 <script setup>
 const isRowLayoutEnabled = ref(true);
-// const blouColumn = "~/assets/icons/list-2.svg";
-// const grayColumn = "~/assets/icons/glist-1.svg";
-// const blouRow = "~/assets/icons/blist-2.svg";
-// const grayRow = "~/assets/icons/list-1.svg";
+// const blouColumn = "/icons/list-2.svg";
+// const grayColumn = "/icons/glist-1.svg";
+// const blouRow = "/icons/blist-2.svg";
+// const grayRow = "/icons/list-1.svg";
 const toggleLayout = () =>
   (isRowLayoutEnabled.value = !isRowLayoutEnabled.value);
 
-import haederIcon from "~/assets/icons/advertisement.svg";
+import haederIcon from "/icons/advertisement.svg";
 
-import blouColumnIcon from "~/assets/icons/list-2.svg";
+import blouColumnIcon from "/icons/list-2.svg";
 const blouColumn = ref(blouColumnIcon);
-import grayColumnIcon from "~/assets/icons/glist-1.svg";
+import grayColumnIcon from "/icons/glist-1.svg";
 const grayColumn = ref(grayColumnIcon);
-import blouRowIcon from "~/assets/icons/blist-2.svg";
+import blouRowIcon from "/icons/blist-2.svg";
 const blouRow = ref(blouRowIcon);
-import grayRowIcon from "~/assets/icons/list-1.svg";
+import grayRowIcon from "/icons/list-1.svg";
 const grayRow = ref(grayRowIcon);
 
 const header = ref(haederIcon);

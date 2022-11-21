@@ -18,7 +18,7 @@
         </div>
       </div>
       <img
-        src="~/assets/icons/downarrow.svg"
+        src="/icons/downarrow.svg"
         alt="arrow"
         class="arrow-icon position-absolute"
         :class="visible ? 'selected' : ''"

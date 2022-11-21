@@ -24,7 +24,7 @@
               <div
                 class="green d-flex justify-content-center align-items-center"
               >
-                <img src="~/assets/icons/wSelect.svg" alt="" />
+                <img src="/icons/wSelect.svg" alt="" />
               </div>
               <div class="title d-flex flex-column">
                 <span class="success-text">تمت العملية بنجاح</span>
@@ -40,7 +40,7 @@
                   align-items-center
                 "
               >
-                <img src="~/assets/icons/close.svg" alt="" />
+                <img src="/icons/close.svg" alt="" />
               </div>
             </div>
           </div> -->
@@ -54,7 +54,7 @@
               "
             >
               <div class="red d-flex justify-content-center align-items-center">
-                <img src="~/assets/icons/wSelect.svg" alt="" />
+                <img src="/icons/wSelect.svg" alt="" />
               </div>
               <div class="title d-flex flex-column">
                 <span class="faild-text">نأسف، حدث خطأ ما!</span>
@@ -70,7 +70,7 @@
                   align-items-center
                 "
               >
-                <img src="~/assets/icons/close.svg" alt="" />
+                <img src="/icons/close.svg" alt="" />
               </div>
             </div>
           </div> -->

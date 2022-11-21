@@ -5,7 +5,7 @@
       <CoreAppContainer>
         <CoreItemContainer>
           <div class="header-img d-flex justify-content-center">
-            <img src="~/assets/images/news.png" alt="" />
+            <img src="/images/news.png" alt="" />
           </div>
           <div class="date d-flex justify-content-end">
             <span>نشر في:</span>

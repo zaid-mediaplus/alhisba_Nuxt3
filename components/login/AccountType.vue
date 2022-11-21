@@ -11,12 +11,12 @@ const items = ref([
   {
     id: 1,
     title: "حساب شخصي",
-    icon: "~/assets/icons/lg-profile.svg",
+    icon: "/icons/lg-profile.svg",
   },
   {
     id: 2,
     title: "حساب تجاري",
-    icon: "~/assets/icons/b-login-2.svg",
+    icon: "/icons/b-login-2.svg",
   },
 ]);
 </script>

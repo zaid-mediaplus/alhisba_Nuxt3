@@ -24,7 +24,7 @@
           </div>
           <div class="bottons d-flex justify-content-end">
             <div class="share d-flex justify-content-center align-items-center">
-              <img src="~/assets/icons/share.svg" />
+              <img src="/icons/share.svg" />
               <span>مشاركة</span>
             </div>
           </div>

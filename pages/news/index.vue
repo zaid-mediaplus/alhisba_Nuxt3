@@ -58,7 +58,7 @@
 </template>
 
 <script setup>
-import newsIcon from "~/assets/icons/aboutus.svg";
+import newsIcon from "/icons/aboutus.svg";
 const news = ref(newsIcon);
 </script>
 

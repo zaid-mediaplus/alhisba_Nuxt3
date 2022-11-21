@@ -6,7 +6,7 @@
       <input :type="type" />
     </div>
     <div class="image">
-      <img src="~/assets/icons/profile/edit.svg" alt="" />
+      <img src="/icons/profile/edit.svg" alt="" />
     </div>
   </div>
 </template>

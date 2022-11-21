@@ -1,7 +1,7 @@
 <template>
   <div class="d-flex flex-column align-items-center">
     <div class="header-img">
-      <img src="~/assets/icons/Bank.svg" alt="" />
+      <img src="/icons/Bank.svg" alt="" />
     </div>
     <NuxtLink to="/finance">
       <div class="bank-baner-container d-flex justify-content-end">
