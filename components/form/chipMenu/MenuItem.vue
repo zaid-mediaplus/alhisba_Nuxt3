@@ -24,7 +24,7 @@ const props = defineProps({
   onItemClicked: Function,
 });
 import checkIcon from "/icons/wSelect.svg";
-import plusIcon from "/icons/bplus.svg";
+import plusIcon from "/icons/bPlus.svg";
 
 const check = ref(checkIcon);
 const plus = ref(plusIcon);

@@ -65,7 +65,7 @@ const props = defineProps({
 
 import closeIcon from "/icons/minus.svg";
 const close = ref(closeIcon);
-import plusIcon from "/icons/bplus.svg";
+import plusIcon from "/icons/bPlus.svg";
 const plus = ref(plusIcon);
 
 const usersToggle = ref(false);
