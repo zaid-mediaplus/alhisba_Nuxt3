@@ -131,9 +131,23 @@
       </div>
       <div class="ads-section-2 d-flex justify-content-center">
         <div class="ads-slider d-flex justify-content-center">
+          <swiper :slides-per-view="1" @swiper="onSwiper">
+            <swiper-slide>
               <img src="/images/AD-3.png" />
+            </swiper-slide>
             <!-- <swiper-slide> <img src="/images/AD-3.png" /> </swiper-slide> -->
+          </swiper>
         </div>
+      </div>
+      <div class="slider-dots d-flex justify-content-center">
+        <!-- <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div> -->
+        <HomeSliderDot :selected="true" />
+        <HomeSliderDot :selected="false" />
+        <HomeSliderDot :selected="false" />
+        <HomeSliderDot :selected="false" />
       </div>
       <div class="news-section position-relative">
         <div class="sections-title d-flex justify-content-center pb-5">

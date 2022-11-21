@@ -1,8 +1,8 @@
 <template>
   <div
     class="dot"
-    :class="selectToggle() ? 'selected' : ''"
-    @click="selectToggle()"
+    :class="selected ? 'selected' : ''"
+    @click="selectToggle"
   ></div>
 </template>
 
