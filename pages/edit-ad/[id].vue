@@ -16,8 +16,8 @@
                 class="note-content d-flex justify-content-center align-items-center"
               >
                 <div class="icon-bg">
-                  <!-- <img src="/icons/info.svg" alt="" /> -->
-                  <!-- <img src="/icons/info.svg" alt="" /> -->
+                  <!-- <img src="/icons/Info.svg" alt="" /> -->
+                  <!-- <img src="/icons/Info.svg" alt="" /> -->
                   <img src="/icons/Info.svg" alt="" />
                 </div>
                 <span>عدد الإعلانات المتبقية لديك: 3</span>
@@ -140,7 +140,7 @@ import haederIcon from "/icons/advertisement.svg";
 
 const header = ref(haederIcon);
 
-// import infoRef from "/icons/info.svg";
+// import infoRef from "/icons/Info.svg";
 // const infoSvg = ref(infoRef);
 </script>
 

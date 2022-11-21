@@ -98,7 +98,7 @@
           @click="showModal = true"
         >
           <div class="btn-img">
-            <img src="/icons/info.svg" />
+            <img src="/icons/Info.svg" />
           </div>
           <div>
             <span>اعرف الجودة لديك</span>
