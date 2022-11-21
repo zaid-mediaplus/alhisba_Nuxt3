@@ -1,132 +1,135 @@
 <template>
-  <CoreAppContainer>
-    <CoreAppNavBar :logo="logo" :login="login" color="#112347" />
-  </CoreAppContainer>
-  <div class="page-bg">
+  <div>
     <CoreAppContainer>
-      <CoreItemContainer>
-        <div class="top-section d-flex justify-content-between">
-          <div class="real-state-picture">
-            <div class="main-picture position-relative">
-              <img src="~/assets/images/lg-realstate.png" alt="" />
-            </div>
-            <div
-              class="share bg d-flex justify-content-center align-items-center position-absolute"
-            >
-              <img src="~/assets/icons/share.svg" alt="" />
-              <span>شارك الإعلان</span>
-            </div>
-            <div
-              class="favourite bg d-flex justify-content-center align-items-center position-absolute"
-            >
-              <img src="~/assets/icons/cardIcon/save.svg" alt="" />
-              <span>أضف إلى المفضلة</span>
-            </div>
-            <div class="list-picture d-flex flex-wrap justify-content-between">
-              <img src="~/assets/images/sell.png" alt="" />
-              <img src="~/assets/images/sell.png" alt="" />
-              <img src="~/assets/images/sell.png" alt="" />
-              <img src="~/assets/images/sell.png" alt="" />
-              <img
-                class="last position-relative"
-                src="~/assets/images/sell.png"
-                alt=""
-              />
-              <!-- <div class="bgGradient position-absolute"></div> -->
-            </div>
-          </div>
-          <div class="contact-us-details">
-            <div class="details-bg d-flex flex-column align-items-center">
+      <CoreAppNavBar :logo="logo" :login="login" color="#112347" />
+    </CoreAppContainer>
+    <div class="page-bg">
+      <CoreAppContainer>
+        <CoreItemContainer>
+          <div class="top-section d-flex justify-content-between">
+            <div class="real-state-picture">
+              <div class="main-picture position-relative">
+                <img src="~/assets/images/lg-realstate.png" alt="" />
+              </div>
               <div
-                class="profile-icon d-flex justify-content-center align-items-center"
+                class="share bg d-flex justify-content-center align-items-center position-absolute"
               >
-                <img src="~/assets/icons/lg-profile.svg" alt="" />
+                <img src="~/assets/icons/share.svg" alt="" />
+                <span>شارك الإعلان</span>
               </div>
-              <div class="title-name">
-                <span>شركة الانوار للاستثمارات العقارية</span>
+              <div
+                class="favourite bg d-flex justify-content-center align-items-center position-absolute"
+              >
+                <img src="~/assets/icons/cardIcon/save.svg" alt="" />
+                <span>أضف إلى المفضلة</span>
               </div>
-              <div class="location d-flex justify-content-center">
-                <img src="~/assets/icons/address.svg" alt="" />
-                <span>الكويت</span>
-              </div>
-              <div class="description">
-                <span
-                  >هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم
-                  توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا
-                  النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف
-                  التى يولدها التطبيق.</span
-                >
-              </div>
-              <div class="contact-us-padding">
-                <div class="show-mobile-number d-flex justify-content-center">
-                  <img src="~/assets/icons/mid-mobile.svg" alt="" />
-                  <span>أظهر رقم الهاتف</span>
-                </div>
-                <div class="send-message d-flex justify-content-center">
-                  <img src="~/assets/icons/cardIcon/Message.svg" alt="" />
-                  <span>أرسل رسالة</span>
-                </div>
-                <div class="social-media d-flex justify-content-between">
-                  <div class="whatsapp">
-                    <img src="~/assets/icons/whatsapp.svg" alt="" />
-                  </div>
-                  <div class="instagram">
-                    <img src="~/assets/icons/y-instagram.svg" alt="" />
-                  </div>
-                  <div class="website">
-                    <img src="~/assets/icons/r-website.svg   " alt="" />
-                  </div>
-                </div>
+              <div
+                class="list-picture d-flex flex-wrap justify-content-between"
+              >
+                <img src="~/assets/images/sell.png" alt="" />
+                <img src="~/assets/images/sell.png" alt="" />
+                <img src="~/assets/images/sell.png" alt="" />
+                <img src="~/assets/images/sell.png" alt="" />
+                <img
+                  class="last position-relative"
+                  src="~/assets/images/sell.png"
+                  alt=""
+                />
+                <!-- <div class="bgGradient position-absolute"></div> -->
               </div>
             </div>
-          </div>
-        </div>
-        <div class="middle-section d-flex justify-content-between">
-          <div class="right-section">
-            <div class="ads-details">
-              <div class="form-bg">
-                <div class="publish-time">
-                  <img src="~/assets/icons/g-clock.svg" alt="" />
-                  <span>قبل يومين</span>
-                </div>
-                <div class="title-price d-flex justify-content-between">
-                  <span class="ads-title"
-                    >منزل من 3 غرف نوم و3 طوابق للبيع</span
-                  >
-                  <span class="price">700,000 د.ك</span>
-                </div>
+            <div class="contact-us-details">
+              <div class="details-bg d-flex flex-column align-items-center">
                 <div
-                  class="proparities d-flex flex-wrap justify-content-between gap-2"
+                  class="profile-icon d-flex justify-content-center align-items-center"
                 >
-                  <div>
-                    <img src="~/assets/icons/cardIcon/bed.svg" />
-                    <span class="">3 غرف نوم</span>
-                  </div>
-                  <div>
-                    <img src="~/assets/icons/cardIcon/area.svg" />
-                    <span class="">750 م2</span>
-                  </div>
-                  <div>
-                    <img src="~/assets/icons/cardIcon/bath.svg" />
-                    <span class="">3 حمامات</span>
-                  </div>
+                  <img src="~/assets/icons/lg-profile.svg" alt="" />
                 </div>
-                <div class="address">
-                  <img src="~/assets/icons/address.svg" />
-                  <span class="left-title">الفروانية، الأندلس</span>
+                <div class="title-name">
+                  <span>شركة الانوار للاستثمارات العقارية</span>
                 </div>
-                <div class="border"></div>
-                <div class="real-state-description">
-                  <div class="title">وصف العقار</div>
-                  <div class="description">
-                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم
+                <div class="location d-flex justify-content-center">
+                  <img src="~/assets/icons/address.svg" alt="" />
+                  <span>الكويت</span>
+                </div>
+                <div class="description">
+                  <span
+                    >هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم
                     توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل
                     هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد
-                    الحروف التى يولدها التطبيق.
+                    الحروف التى يولدها التطبيق.</span
+                  >
+                </div>
+                <div class="contact-us-padding">
+                  <div class="show-mobile-number d-flex justify-content-center">
+                    <img src="~/assets/icons/mid-mobile.svg" alt="" />
+                    <span>أظهر رقم الهاتف</span>
+                  </div>
+                  <div class="send-message d-flex justify-content-center">
+                    <img src="~/assets/icons/cardIcon/Message.svg" alt="" />
+                    <span>أرسل رسالة</span>
+                  </div>
+                  <div class="social-media d-flex justify-content-between">
+                    <div class="whatsapp">
+                      <img src="~/assets/icons/whatsapp.svg" alt="" />
+                    </div>
+                    <div class="instagram">
+                      <img src="~/assets/icons/y-instagram.svg" alt="" />
+                    </div>
+                    <div class="website">
+                      <img src="~/assets/icons/r-website.svg   " alt="" />
+                    </div>
                   </div>
                 </div>
-                <!-- <div class="border"></div> -->
-                <!-- <div class="details-title">
+              </div>
+            </div>
+          </div>
+          <div class="middle-section d-flex justify-content-between">
+            <div class="right-section">
+              <div class="ads-details">
+                <div class="form-bg">
+                  <div class="publish-time">
+                    <img src="~/assets/icons/g-clock.svg" alt="" />
+                    <span>قبل يومين</span>
+                  </div>
+                  <div class="title-price d-flex justify-content-between">
+                    <span class="ads-title"
+                      >منزل من 3 غرف نوم و3 طوابق للبيع</span
+                    >
+                    <span class="price">700,000 د.ك</span>
+                  </div>
+                  <div
+                    class="proparities d-flex flex-wrap justify-content-between gap-2"
+                  >
+                    <div>
+                      <img src="~/assets/icons/cardIcon/bed.svg" />
+                      <span class="">3 غرف نوم</span>
+                    </div>
+                    <div>
+                      <img src="~/assets/icons/cardIcon/area.svg" />
+                      <span class="">750 م2</span>
+                    </div>
+                    <div>
+                      <img src="~/assets/icons/cardIcon/bath.svg" />
+                      <span class="">3 حمامات</span>
+                    </div>
+                  </div>
+                  <div class="address">
+                    <img src="~/assets/icons/address.svg" />
+                    <span class="left-title">الفروانية، الأندلس</span>
+                  </div>
+                  <div class="border"></div>
+                  <div class="real-state-description">
+                    <div class="title">وصف العقار</div>
+                    <div class="description">
+                      هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم
+                      توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل
+                      هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد
+                      الحروف التى يولدها التطبيق.
+                    </div>
+                  </div>
+                  <!-- <div class="border"></div> -->
+                  <!-- <div class="details-title">
                   <span>التفاصيل</span>
                 </div>
                 <div class="details-items d-flex flex-wrap">
@@ -177,28 +180,28 @@
                     <span>قريب من الحديقة</span>
                   </div>
                 </div> -->
-              </div>
-            </div>
-            <div class="Apply">
-              <div
-                class="Apply-bg d-flex justify-content-between align-items-center"
-              >
-                <div class="right d-flex align-items-center">
-                  <div class="img-bg">
-                    <img src="~/assets/icons/Bank.svg" alt="" />
-                  </div>
-                  <span>هل تريد تقديم طلب تمويل؟</span>
-                </div>
-                <div class="left-icon">
-                  <div
-                    class="icon-bg d-flex justify-content-center align-items-center"
-                  >
-                    <img src="~/assets/icons/w-left-arrow.svg" alt="" />
-                  </div>
                 </div>
               </div>
-            </div>
-            <!-- <div class="location-ditails">
+              <div class="Apply">
+                <div
+                  class="Apply-bg d-flex justify-content-between align-items-center"
+                >
+                  <div class="right d-flex align-items-center">
+                    <div class="img-bg">
+                      <img src="~/assets/icons/Bank.svg" alt="" />
+                    </div>
+                    <span>هل تريد تقديم طلب تمويل؟</span>
+                  </div>
+                  <div class="left-icon">
+                    <div
+                      class="icon-bg d-flex justify-content-center align-items-center"
+                    >
+                      <img src="~/assets/icons/w-left-arrow.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="location-ditails">
               <div class="location-form-bg">
                 <div class="title">موقع العقار</div>
                 <div class="map">
@@ -214,24 +217,24 @@
                 </div>
               </div>
             </div> -->
+            </div>
           </div>
+        </CoreItemContainer>
+        <div class="border"></div>
+        <div class="sggested-section d-flex justify-content-between pb-4">
+          <div class="sections-main-title">
+            <span class="sections-title">عقارات مقترحة للبيع</span>
+            <span class="sub-title">- نفس المنطقة</span>
+          </div>
+          <CoreViewAll />
         </div>
-      </CoreItemContainer>
-      <div class="border"></div>
-      <div class="sggested-section d-flex justify-content-between pb-4">
-        <div class="sections-main-title">
-          <span class="sections-title">عقارات مقترحة للبيع</span>
-          <span class="sub-title">- نفس المنطقة</span>
+        <div class="SuggestedRealState d-flex">
+          <CoreSuggestedRealState />
+          <CoreSuggestedRealState />
+          <CoreSuggestedRealState />
+          <CoreSuggestedRealState />
         </div>
-        <CoreViewAll />
-      </div>
-      <div class="SuggestedRealState d-flex">
-        <CoreSuggestedRealState />
-        <CoreSuggestedRealState />
-        <CoreSuggestedRealState />
-        <CoreSuggestedRealState />
-      </div>
-      <!-- <div class="border"></div>
+        <!-- <div class="border"></div>
       <div class="sggested-section d-flex justify-content-between pb-4">
         <div class="sections-main-title">
           <span class="sections-title">مكاتب عقارية مقترحة</span>
@@ -253,7 +256,8 @@
           <img src="~/assets/images/AD-4.png" />
         </div>
       </div> -->
-    </CoreAppContainer>
+      </CoreAppContainer>
+    </div>
   </div>
 </template>
 

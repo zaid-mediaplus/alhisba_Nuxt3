@@ -1,84 +1,86 @@
 <template>
-  <CoreInsideHeader title="من نحن" :img="aboutUs" bottom="-135px" />
-  <div class="about-us-section">
-    <CoreAppContainer>
-      <CoreItemContainer>
-        <div class="main-logo">
-          <img src="~/assets/images/darkLogo.svg" alt="" />
-        </div>
-        <div class="about-alhisba">
-          الموقع الالكتروني <span>ALHISBA.COM</span> وكذلك تطبيقات برنامج
-          "الحسبة" بنظامي iOS و android مملوكين لشركة الحسبة العقارية (شركة
-          كويتية ذات مسئولية محدودة)، تأسست شركة الحسبة العقارية سنة 2016 على يد
-          مجموعة من المتخصصين (خبرة 18 عام) في مجالات العقار والبنوك وتأسيس
-          وإدارة المواقع الالكترونية بهدف تقديم خدمات عقارية متميزة من شأنها
-          توفير الشفافية المطلوبة في السوق العقاري الكويتي وذلك من خلال استخدام
-          أفضل الحلول التقنية الحديثة لتسهيل وصول المعلومات والبيانات والتحليلات
-          المتعلقة في السوق العقاري الكويتي وتقديمها بصورة مبتكرة لجميع أصحاب
-          المصالح.
-        </div>
-      </CoreItemContainer>
-      <div class="alhisba-app-section">
-        <div class="alhisba-app-bg d-flex align-items-center">
-          <div class="right-section">
-            <div
-              class="iphone d-flex justify-content-center align-items-center rounded-circle"
-            >
-              <img src="~/assets/images/iphone.png" />
+  <div>
+    <CoreInsideHeader title="من نحن" :img="aboutUs" bottom="-135px" />
+    <div class="about-us-section">
+      <CoreAppContainer>
+        <CoreItemContainer>
+          <div class="main-logo">
+            <img src="~/assets/images/darkLogo.svg" alt="" />
+          </div>
+          <div class="about-alhisba">
+            الموقع الالكتروني <span>ALHISBA.COM</span> وكذلك تطبيقات برنامج
+            "الحسبة" بنظامي iOS و android مملوكين لشركة الحسبة العقارية (شركة
+            كويتية ذات مسئولية محدودة)، تأسست شركة الحسبة العقارية سنة 2016 على
+            يد مجموعة من المتخصصين (خبرة 18 عام) في مجالات العقار والبنوك وتأسيس
+            وإدارة المواقع الالكترونية بهدف تقديم خدمات عقارية متميزة من شأنها
+            توفير الشفافية المطلوبة في السوق العقاري الكويتي وذلك من خلال
+            استخدام أفضل الحلول التقنية الحديثة لتسهيل وصول المعلومات والبيانات
+            والتحليلات المتعلقة في السوق العقاري الكويتي وتقديمها بصورة مبتكرة
+            لجميع أصحاب المصالح.
+          </div>
+        </CoreItemContainer>
+        <div class="alhisba-app-section">
+          <div class="alhisba-app-bg d-flex align-items-center">
+            <div class="right-section">
+              <div
+                class="iphone d-flex justify-content-center align-items-center rounded-circle"
+              >
+                <img src="~/assets/images/iphone.png" />
+              </div>
+            </div>
+            <div class="left-section">
+              <div class="logo">
+                <img src="~/assets/images/Logo.svg" />
+              </div>
+              <div class="title">
+                <span>تطبيق واحد لكل ما تحتاجه لعقارك</span>
+              </div>
+              <div class="description">
+                <span>
+                  من مبيعات ومزادات، حساب تكلفة البناء وحساب قرض الرهن العقاري
+                  وطلب تقييم رسمي الآن على متجر آبل وأندرويد.
+                </span>
+              </div>
+              <div class="os-logos">
+                <img src="~/assets/images/os.svg" class="os-logo" />
+              </div>
             </div>
           </div>
-          <div class="left-section">
-            <div class="logo">
-              <img src="~/assets/images/Logo.svg" />
-            </div>
-            <div class="title">
-              <span>تطبيق واحد لكل ما تحتاجه لعقارك</span>
-            </div>
-            <div class="description">
-              <span>
-                من مبيعات ومزادات، حساب تكلفة البناء وحساب قرض الرهن العقاري
-                وطلب تقييم رسمي الآن على متجر آبل وأندرويد.
-              </span>
-            </div>
-            <div class="os-logos">
-              <img src="~/assets/images/os.svg" class="os-logo" />
-            </div>
+        </div>
+        <div class="subscription-section d-flex justify-content-center">
+          <div class="subscription-title">
+            <span>
+              اشترك في خدمة الرسائل الإخبارية ليصلك كل جديد في السوق العقاري
+              الكويتي
+            </span>
           </div>
         </div>
-      </div>
-      <div class="subscription-section d-flex justify-content-center">
-        <div class="subscription-title">
-          <span>
-            اشترك في خدمة الرسائل الإخبارية ليصلك كل جديد في السوق العقاري
-            الكويتي
-          </span>
-        </div>
-      </div>
-      <div
-        class="contact-us d-flex justify-content-center align-items-center position-relative"
-      >
         <div
-          class="email-input d-flex justify-content-between align-items-center"
+          class="contact-us d-flex justify-content-center align-items-center position-relative"
         >
-          <div class="email">
-            <input placeholder="ادخل البريد الالكتروني" />
+          <div
+            class="email-input d-flex justify-content-between align-items-center"
+          >
+            <div class="email">
+              <input placeholder="ادخل البريد الالكتروني" />
+            </div>
+            <div class="subscription-btn">
+              <button class="button-submit">
+                <span class="text-submit">اشترك الآن</span>
+              </button>
+            </div>
           </div>
-          <div class="subscription-btn">
-            <button class="button-submit">
-              <span class="text-submit">اشترك الآن</span>
-            </button>
+          <div class="footer-img">
+            <div class="house-img position-absolute">
+              <img src="~/assets/images/blueHouse.svg" />
+            </div>
+            <div class="tree position-absolute">
+              <img src="~/assets/images/tree.svg" />
+            </div>
           </div>
         </div>
-        <div class="footer-img">
-          <div class="house-img position-absolute">
-            <img src="~/assets/images/blueHouse.svg" />
-          </div>
-          <div class="tree position-absolute">
-            <img src="~/assets/images/tree.svg" />
-          </div>
-        </div>
-      </div>
-    </CoreAppContainer>
+      </CoreAppContainer>
+    </div>
   </div>
 </template>
 

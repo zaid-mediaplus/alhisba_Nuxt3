@@ -1,57 +1,59 @@
 <template>
-  <CoreInsideHeader title="الأخبار العقارية" :img="news" bottom="-135px" />
-  <div class="page-bg">
-    <CoreAppContainer>
-      <div class="main-title">
-        <span>آخر الأخبار العقارية</span>
-      </div>
-      <div class="news-card-section d-flex gap-4">
-        <NuxtLink to="/news/1">
-          <HomeAppNews :showDescription="false" />
-        </NuxtLink>
-        <NuxtLink to="/news/1">
-          <HomeAppNews :showDescription="false" />
-        </NuxtLink>
-        <NuxtLink to="/news/1">
-          <HomeAppNews :showDescription="false" />
-        </NuxtLink>
-        <NuxtLink to="/news/1">
-          <HomeAppNews :showDescription="false" />
-        </NuxtLink>
-      </div>
-      <div class="news-card-section d-flex gap-4">
-        <NuxtLink to="/news/1">
-          <HomeAppNews :showDescription="false" />
-        </NuxtLink>
-        <NuxtLink to="/news/1">
-          <HomeAppNews :showDescription="false" />
-        </NuxtLink>
-        <NuxtLink to="/news/1">
-          <HomeAppNews :showDescription="false" />
-        </NuxtLink>
-        <NuxtLink to="/news/1">
-          <HomeAppNews :showDescription="false" />
-        </NuxtLink>
-      </div>
-      <div class="news-card-section d-flex gap-4">
-        <NuxtLink to="/news/1">
-          <HomeAppNews :showDescription="false" />
-        </NuxtLink>
-        <NuxtLink to="/news/1">
-          <HomeAppNews :showDescription="false" />
-        </NuxtLink>
-        <NuxtLink to="/news/1">
-          <HomeAppNews :showDescription="false" />
-        </NuxtLink>
-        <NuxtLink to="/news/1">
-          <HomeAppNews :showDescription="false" />
-        </NuxtLink>
-      </div>
-      <div class="pagination-bar d-flex gap-4">
-        <CorePagination />
-      </div>
-      <div class="border"></div>
-    </CoreAppContainer>
+  <div>
+    <CoreInsideHeader title="الأخبار العقارية" :img="news" bottom="-135px" />
+    <div class="page-bg">
+      <CoreAppContainer>
+        <div class="main-title">
+          <span>آخر الأخبار العقارية</span>
+        </div>
+        <div class="news-card-section d-flex gap-4">
+          <NuxtLink to="/news/1">
+            <HomeAppNews :showDescription="false" />
+          </NuxtLink>
+          <NuxtLink to="/news/1">
+            <HomeAppNews :showDescription="false" />
+          </NuxtLink>
+          <NuxtLink to="/news/1">
+            <HomeAppNews :showDescription="false" />
+          </NuxtLink>
+          <NuxtLink to="/news/1">
+            <HomeAppNews :showDescription="false" />
+          </NuxtLink>
+        </div>
+        <div class="news-card-section d-flex gap-4">
+          <NuxtLink to="/news/1">
+            <HomeAppNews :showDescription="false" />
+          </NuxtLink>
+          <NuxtLink to="/news/1">
+            <HomeAppNews :showDescription="false" />
+          </NuxtLink>
+          <NuxtLink to="/news/1">
+            <HomeAppNews :showDescription="false" />
+          </NuxtLink>
+          <NuxtLink to="/news/1">
+            <HomeAppNews :showDescription="false" />
+          </NuxtLink>
+        </div>
+        <div class="news-card-section d-flex gap-4">
+          <NuxtLink to="/news/1">
+            <HomeAppNews :showDescription="false" />
+          </NuxtLink>
+          <NuxtLink to="/news/1">
+            <HomeAppNews :showDescription="false" />
+          </NuxtLink>
+          <NuxtLink to="/news/1">
+            <HomeAppNews :showDescription="false" />
+          </NuxtLink>
+          <NuxtLink to="/news/1">
+            <HomeAppNews :showDescription="false" />
+          </NuxtLink>
+        </div>
+        <div class="pagination-bar d-flex gap-4">
+          <CorePagination />
+        </div>
+        <div class="border"></div>
+      </CoreAppContainer>
+    </div>
   </div>
 </template>
 

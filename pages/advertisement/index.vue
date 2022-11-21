@@ -1,62 +1,64 @@
 <template>
-  <CoreInsideHeader title="الإعلانات" :img="header" bottom="-130px" />
-  <div class="filter-container">
-    <CoreFilter showBtn="true" />
-  </div>
-  <CoreAppContainer>
-    <div class="main-title d-flex justify-content-between align-items-center">
-      <div class="right">
-        <span class="title"> عقارات للبيع</span>
-        <span class="dote">.</span>
-        <span class="result">68,444 نتيجة</span>
-      </div>
-      <div class="left d-flex justify-content-between">
-        <div class="list-icon d-flex gap-3">
-          <img
-            :src="!isRowLayoutEnabled ? grayRow : blouRow"
-            @click="isRowLayoutEnabled = true"
-          />
-          <img
-            :src="!isRowLayoutEnabled ? blouColumn : grayColumn"
-            @click="isRowLayoutEnabled = false"
-          />
+  <div>
+    <CoreInsideHeader title="الإعلانات" :img="header" bottom="-130px" />
+    <div class="filter-container">
+      <CoreFilter showBtn="true" />
+    </div>
+    <CoreAppContainer>
+      <div class="main-title d-flex justify-content-between align-items-center">
+        <div class="right">
+          <span class="title"> عقارات للبيع</span>
+          <span class="dote">.</span>
+          <span class="result">68,444 نتيجة</span>
         </div>
-        <div class="left-border"></div>
-        <div class="sort-by d-flex">
-          <span class="sort">ترتيب بحسب:</span>
-          <div class="by d-flex">
-            <!-- <span>الأحدث إلى الأقدم </span>
-            <img src="~/assets/icons/downarrow.svg" alt="" /> -->
-            <CoreAdSorting
-              title="الأحدث إلى الأقدم"
-              :items="['الأقدم الى الأحدث', 'TEST', 'TEST', 'TEST', 'TEST']"
+        <div class="left d-flex justify-content-between">
+          <div class="list-icon d-flex gap-3">
+            <img
+              :src="!isRowLayoutEnabled ? grayRow : blouRow"
+              @click="isRowLayoutEnabled = true"
+            />
+            <img
+              :src="!isRowLayoutEnabled ? blouColumn : grayColumn"
+              @click="isRowLayoutEnabled = false"
             />
           </div>
-        </div>
-      </div>
-    </div>
-    <div
-      class="lands-card-section d-flex flex-wrap gap-4"
-      :class="!isRowLayoutEnabled ? 'flex-row' : 'flex-column'"
-    >
-      <NuxtLink to="/advertisement/1">
-        <div class="d-flex flex-wrap gap-4">
-          <div v-for="index in 12" :key="index" v-show="!isRowLayoutEnabled">
-            <CoreSuggestedRealState />
+          <div class="left-border"></div>
+          <div class="sort-by d-flex">
+            <span class="sort">ترتيب بحسب:</span>
+            <div class="by d-flex">
+              <!-- <span>الأحدث إلى الأقدم </span>
+            <img src="~/assets/icons/downarrow.svg" alt="" /> -->
+              <CoreAdSorting
+                title="الأحدث إلى الأقدم"
+                :items="['الأقدم الى الأحدث', 'TEST', 'TEST', 'TEST', 'TEST']"
+              />
+            </div>
           </div>
         </div>
-      </NuxtLink>
-      <NuxtLink to="/advertisement/1">
-        <div v-for="index in 7" :key="index" v-show="isRowLayoutEnabled">
-          <CoreRealStateRow />
-        </div>
-      </NuxtLink>
-    </div>
-    <div class="pagination d-flex">
-      <CorePagination />
-    </div>
-    <div class="ads-border"></div>
-  </CoreAppContainer>
+      </div>
+      <div
+        class="lands-card-section d-flex flex-wrap gap-4"
+        :class="!isRowLayoutEnabled ? 'flex-row' : 'flex-column'"
+      >
+        <NuxtLink to="/advertisement/1">
+          <div class="d-flex flex-wrap gap-4">
+            <div v-for="index in 12" :key="index" v-show="!isRowLayoutEnabled">
+              <CoreSuggestedRealState />
+            </div>
+          </div>
+        </NuxtLink>
+        <NuxtLink to="/advertisement/1">
+          <div v-for="index in 7" :key="index" v-show="isRowLayoutEnabled">
+            <CoreRealStateRow />
+          </div>
+        </NuxtLink>
+      </div>
+      <div class="pagination d-flex">
+        <CorePagination />
+      </div>
+      <div class="ads-border"></div>
+    </CoreAppContainer>
+  </div>
 </template>
 
 <script setup>

@@ -18,7 +18,7 @@
                 <div class="icon-bg">
                   <!-- <img src="/icons/info.svg" alt="" /> -->
                   <!-- <img src="~/assets/icons/info.svg" alt="" /> -->
-                  <img src="~~/assets/icons/info.svg" alt="" />
+                  <img src="~/assets/icons/info.svg" alt="" />
                 </div>
                 <span>عدد الإعلانات المتبقية لديك: 3</span>
               </div>

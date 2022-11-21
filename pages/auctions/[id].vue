@@ -1,68 +1,70 @@
 <template>
-  <CoreInsideHeader
-    title="وزارة العدل"
-    :img="header"
-    description="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+  <div>
+    <CoreInsideHeader
+      title="وزارة العدل"
+      :img="header"
+      description="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
 "
-    bottom="-50px"
-  />
-  <CoreAppContainer>
-    <CoreItemContainer>
-      <div class="auction-details">
-        <div class="bg d-flex align-items-center">
-          <div class="title">
-            <img src="~/assets/icons/justice.svg" alt="" />
-            <span>وزارة العدل</span>
-            <div class="line"></div>
-          </div>
-          <div class="contact-inforamtion d-flex justify-content-between">
-            <div class="phone d-flex align-items-end">
-              <div class="icon">
-                <img src="~/assets/icons/darkmobile.svg" alt="" />
+      bottom="-50px"
+    />
+    <CoreAppContainer>
+      <CoreItemContainer>
+        <div class="auction-details">
+          <div class="bg d-flex align-items-center">
+            <div class="title">
+              <img src="~/assets/icons/justice.svg" alt="" />
+              <span>وزارة العدل</span>
+              <div class="line"></div>
+            </div>
+            <div class="contact-inforamtion d-flex justify-content-between">
+              <div class="phone d-flex align-items-end">
+                <div class="icon">
+                  <img src="~/assets/icons/darkmobile.svg" alt="" />
+                </div>
+                <div class="phone-details d-flex flex-column">
+                  <span class="top-title">رقم الهاتف</span>
+                  <span class="bottom-title">+965 123 4567 89</span>
+                </div>
               </div>
-              <div class="phone-details d-flex flex-column">
-                <span class="top-title">رقم الهاتف</span>
-                <span class="bottom-title">+965 123 4567 89</span>
+              <div class="address d-flex align-items-end">
+                <div class="icon">
+                  <img src="~/assets/icons/address.svg" alt="" />
+                </div>
+                <div class="address-details d-flex flex-column">
+                  <span class="top-title">العنوان</span>
+                  <span class="bottom-title">قصر العدل / 53</span>
+                </div>
               </div>
             </div>
-            <div class="address d-flex align-items-end">
-              <div class="icon">
-                <img src="~/assets/icons/address.svg" alt="" />
+          </div>
+          <div class="auction-accordion">
+            <div class="main-items-title d-flex justify-content-between">
+              <div class="right-title">
+                <span>المنطقة</span>
               </div>
-              <div class="address-details d-flex flex-column">
-                <span class="top-title">العنوان</span>
-                <span class="bottom-title">قصر العدل / 53</span>
+              <div class="left-title">
+                <span class="one">المساحة</span>
+                <span>السعر المبدئي</span>
               </div>
+            </div>
+            <div
+              class="auction-items"
+              v-for="(item, index) in items"
+              :key="index"
+            >
+              <FormAccordion
+                :title="item.title"
+                :icon="item.icon"
+                :area="item.area"
+                :price="item.price"
+                :date="item.date"
+              />
             </div>
           </div>
         </div>
-        <div class="auction-accordion">
-          <div class="main-items-title d-flex justify-content-between">
-            <div class="right-title">
-              <span>المنطقة</span>
-            </div>
-            <div class="left-title">
-              <span class="one">المساحة</span>
-              <span>السعر المبدئي</span>
-            </div>
-          </div>
-          <div
-            class="auction-items"
-            v-for="(item, index) in items"
-            :key="index"
-          >
-            <FormAccordion
-              :title="item.title"
-              :icon="item.icon"
-              :area="item.area"
-              :price="item.price"
-              :date="item.date"
-            />
-          </div>
-        </div>
-      </div>
-    </CoreItemContainer>
-  </CoreAppContainer>
+      </CoreItemContainer>
+    </CoreAppContainer>
+  </div>
 </template>
 
 <script setup>

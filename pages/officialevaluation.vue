@@ -1,151 +1,157 @@
 <template>
-  <CoreInsideHeader
-    title="التقييم الرسمي"
-    :img="header"
-    description="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى.
+  <div>
+    <CoreInsideHeader
+      title="التقييم الرسمي"
+      :img="header"
+      description="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى.
 "
-    bottom="-70px"
-  />
-  <div class="page-bg">
-    <CoreAppContainer>
-      <CoreInsideContainer
-        ><div class="offical-form">
-          <div class="form-bg">
-            <div class="property-status">
-              <div class="property-title">حالة العقار</div>
-              <div class="chose-property d-flex">
-                <div class="form-check d-flex felx-row">
-                  <input
-                    class="form-check-input"
-                    type="radio"
-                    name="flexRadioDefault"
-                    id="flexRadioDefault1"
-                  />
-                  <label class="form-check-label" htmlFor="flexRadioDefault1">
-                    أرض
-                  </label>
+      bottom="-70px"
+    />
+    <div class="page-bg">
+      <CoreAppContainer>
+        <CoreInsideContainer
+          ><div class="offical-form">
+            <div class="form-bg">
+              <div class="property-status">
+                <div class="property-title">حالة العقار</div>
+                <div class="chose-property d-flex">
+                  <div class="form-check d-flex felx-row">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault1"
+                    />
+                    <label class="form-check-label" htmlFor="flexRadioDefault1">
+                      أرض
+                    </label>
+                  </div>
+                  <div class="form-check d-flex felx-row">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault2"
+                      checked
+                    />
+                    <label class="form-check-label" htmlFor="flexRadioDefault2">
+                      مبنى
+                    </label>
+                  </div>
                 </div>
-                <div class="form-check d-flex felx-row">
-                  <input
-                    class="form-check-input"
-                    type="radio"
-                    name="flexRadioDefault"
-                    id="flexRadioDefault2"
-                    checked
-                  />
-                  <label class="form-check-label" htmlFor="flexRadioDefault2">
-                    مبنى
-                  </label>
+              </div>
+              <div
+                class="choose-status d-flex flex-wrap justify-content-between"
+              >
+                <div class="items-dropdown">
+                  <FormDropDown title="نوع العقار" />
                 </div>
-              </div>
-            </div>
-            <div class="choose-status d-flex flex-wrap justify-content-between">
-              <div class="items-dropdown">
-                <FormDropDown title="نوع العقار" />
-              </div>
-              <div class="items-dropdown">
-                <FormDropDown title="المنطقة" />
-              </div>
-              <div class="items-dropdown">
-                <FormDropDown title="هل التقييم موجه إلى بنك؟" />
-              </div>
-              <div class="items-dropdown">
-                <FormDropDown title="اختر البنك" />
-              </div>
-              <div class="items-dropdown-full">
-                <FormDropDown title="قائمة المثمنين المعتمدين" />
-              </div>
-              <!-- <div
+                <div class="items-dropdown">
+                  <FormDropDown title="المنطقة" />
+                </div>
+                <div class="items-dropdown">
+                  <FormDropDown title="هل التقييم موجه إلى بنك؟" />
+                </div>
+                <div class="items-dropdown">
+                  <FormDropDown title="اختر البنك" />
+                </div>
+                <div class="items-dropdown-full">
+                  <FormDropDown title="قائمة المثمنين المعتمدين" />
+                </div>
+                <!-- <div
                 class="dropdown-full d-flex justify-content-between align-items-center"
               >
                 <span>قائمة المثمنين المعتمدين </span>
                 <img src="~/assets/icons/downarrow.svg" alt="arrow" />
               </div> -->
-            </div>
-            <div class="specifications d-flex align-items-baseline">
-              <span class="cost">تكلفة التقييم:</span>
-              <span class="price">150</span>
-              <div class="d-flex -align-items-end">
-                <span class="dk">د.ك</span>
               </div>
-            </div>
-            <div class="extra-status">
-              <div
-                class="choose-status d-flex flex-wrap justify-content-between"
-              >
-                <div class="items-dropdown">
-                  <FormDropDown title="مساحة العقار" />
-                </div>
-                <div class="items-dropdown">
-                  <FormDropDown title="عنوان العقار" />
+              <div class="specifications d-flex align-items-baseline">
+                <span class="cost">تكلفة التقييم:</span>
+                <span class="price">150</span>
+                <div class="d-flex -align-items-end">
+                  <span class="dk">د.ك</span>
                 </div>
               </div>
-              <!-- <textarea
+              <div class="extra-status">
+                <div
+                  class="choose-status d-flex flex-wrap justify-content-between"
+                >
+                  <div class="items-dropdown">
+                    <FormDropDown title="مساحة العقار" />
+                  </div>
+                  <div class="items-dropdown">
+                    <FormDropDown title="عنوان العقار" />
+                  </div>
+                </div>
+                <!-- <textarea
                 class="additional-details"
                 placeholder="تفاصيل إضافية"
               ></textarea> -->
-              <FormTextArea title="تفاصيل إضافية" />
-            </div>
-            <div class="border"></div>
-            <div class="property-status">
-              <div class="property-title">معلومات مقدم الطلب</div>
-            </div>
-            <div class="choose-status d-flex flex-wrap justify-content-between">
-              <div class="text-field-container">
-                <FormTextFeild title="اسم مقدم الطلب" />
+                <FormTextArea title="تفاصيل إضافية" />
               </div>
-              <div class="items-dropdown">
-                <FormNumberDropDown />
+              <div class="border"></div>
+              <div class="property-status">
+                <div class="property-title">معلومات مقدم الطلب</div>
               </div>
-              <div class="text-field-container">
-                <FormTextFeild title="البريد الإلكتروني" />
-              </div>
-              <div class="items-dropdown">
-                <FormDropDown title="صفة مقدم الطلب" />
-              </div>
-              <textarea
-                class="additional-details"
-                placeholder="تفاصيل إضافية"
-              ></textarea>
-            </div>
-            <div class="border"></div>
-            <div class="property-status">
-              <div class="property-title">إرفاق المستندات</div>
-            </div>
-            <div class="d-flex flex-wrap justify-content-between">
               <div
-                class="attachments"
-                v-for="(item, index) in items"
-                :key="index"
+                class="choose-status d-flex flex-wrap justify-content-between"
               >
-                <FormAttachments
-                  :title="item.title"
-                  :icon="item.icon"
-                  :area="item.area"
-                  :price="item.price"
-                />
+                <div class="text-field-container">
+                  <FormTextFeild title="اسم مقدم الطلب" />
+                </div>
+                <div class="items-dropdown">
+                  <FormNumberDropDown />
+                </div>
+                <div class="text-field-container">
+                  <FormTextFeild title="البريد الإلكتروني" />
+                </div>
+                <div class="items-dropdown">
+                  <FormDropDown title="صفة مقدم الطلب" />
+                </div>
+                <textarea
+                  class="additional-details"
+                  placeholder="تفاصيل إضافية"
+                ></textarea>
+              </div>
+              <div class="border"></div>
+              <div class="property-status">
+                <div class="property-title">إرفاق المستندات</div>
+              </div>
+              <div class="d-flex flex-wrap justify-content-between">
+                <div
+                  class="attachments"
+                  v-for="(item, index) in items"
+                  :key="index"
+                >
+                  <FormAttachments
+                    :title="item.title"
+                    :icon="item.icon"
+                    :area="item.area"
+                    :price="item.price"
+                  />
+                </div>
+              </div>
+              <div class="privacy-policy d-flex align-items-center">
+                <input class="right" type="checkbox" />
+                <div class="left">
+                  أوافق على<NuxtLink to="/"><span> شروط وأحكام </span></NuxtLink
+                  >الحسبة
+                </div>
               </div>
             </div>
-            <div class="privacy-policy d-flex align-items-center">
-              <input class="right" type="checkbox" />
-              <div class="left">
-                أوافق على<NuxtLink to="/"><span> شروط وأحكام </span></NuxtLink
-                >الحسبة
-              </div>
+            <div class="calc-btn d-flex justify-content-end">
+              <NuxtLink to="/payment">
+                <div
+                  class="calc d-flex justify-content-center align-items-center"
+                >
+                  <span>أكمل للدفع</span>
+                </div>
+              </NuxtLink>
             </div>
           </div>
-          <div class="calc-btn d-flex justify-content-end">
-            <NuxtLink to="/payment">
-              <div
-                class="calc d-flex justify-content-center align-items-center"
-              >
-                <span>أكمل للدفع</span>
-              </div>
-            </NuxtLink>
-          </div>
-        </div>
-      </CoreInsideContainer>
-    </CoreAppContainer>
+        </CoreInsideContainer>
+      </CoreAppContainer>
+    </div>
   </div>
 </template>
 

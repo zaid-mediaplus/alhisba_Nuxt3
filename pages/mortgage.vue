@@ -1,41 +1,42 @@
 <template>
-  <CoreInsideHeader title="حسبة القرض العقاري" :img="header" bottom="-20px" />
-  <div class="page-bg">
-    <CoreAppContainer>
-      <CoreInsideContainer>
-        <div class="mortgage-form">
-          <div class="mortgage-bg">
-            <div class="cost d-flex flex-wrap justify-content-between">
-              <div class="items-dropdown">
-                <FormDropDown title="هل لديك حساب في بنك بوبيان؟" />
+  <div>
+    <CoreInsideHeader title="حسبة القرض العقاري" :img="header" bottom="-20px" />
+    <div class="page-bg">
+      <CoreAppContainer>
+        <CoreInsideContainer>
+          <div class="mortgage-form">
+            <div class="mortgage-bg">
+              <div class="cost d-flex flex-wrap justify-content-between">
+                <div class="items-dropdown">
+                  <FormDropDown title="هل لديك حساب في بنك بوبيان؟" />
+                </div>
+                <!-- edited -->
+                <div class="items-dropdown">
+                  <FormTextFeild title="أدخل قيمة العقار" />
+                </div>
+                <div class="items-dropdown">
+                  <FormTextFeild title="أدخل قيمة الدفعة المقدمة" />
+                </div>
               </div>
-              <!-- edited -->
-              <div class="items-dropdown">
-                <FormTextFeild title="أدخل قيمة العقار" />
+              <div
+                class="period d-flex justify-content-between align-items-center"
+              >
+                <div class="period-title">فترة السماح</div>
+                <div class="period-month">43 شهر</div>
               </div>
-              <div class="items-dropdown">
-                <FormTextFeild title="أدخل قيمة الدفعة المقدمة" />
+              <div class="input-range">
+                <input type="range" />
               </div>
-            </div>
-            <div
-              class="period d-flex justify-content-between align-items-center"
-            >
-              <div class="period-title">فترة السماح</div>
-              <div class="period-month">43 شهر</div>
-            </div>
-            <div class="input-range">
-              <input type="range" />
-            </div>
-            <div
-              class="period d-flex justify-content-between align-items-center"
-            >
-              <div class="period-title">فترة السداد</div>
-              <div class="period-month">60 شهر</div>
-            </div>
-            <div class="input-range">
-              <input type="range" />
-            </div>
-            <!-- <div
+              <div
+                class="period d-flex justify-content-between align-items-center"
+              >
+                <div class="period-title">فترة السداد</div>
+                <div class="period-month">60 شهر</div>
+              </div>
+              <div class="input-range">
+                <input type="range" />
+              </div>
+              <!-- <div
               class="Payments-section d-flex flex-wrap justify-content-between"
             >
               <div class="items-dropdown">
@@ -48,17 +49,20 @@
                 <FormDropDown title="حدد البنك الخاص بك" />
               </div>
             </div> -->
-          </div>
-        </div>
-        <div class="calc-btn d-flex justify-content-end">
-          <NuxtLink to="/mortgageresult">
-            <div class="calc d-flex justify-content-center align-items-center">
-              <span>إحسب</span>
             </div>
-          </NuxtLink>
-        </div>
-      </CoreInsideContainer>
-    </CoreAppContainer>
+          </div>
+          <div class="calc-btn d-flex justify-content-end">
+            <NuxtLink to="/mortgageresult">
+              <div
+                class="calc d-flex justify-content-center align-items-center"
+              >
+                <span>إحسب</span>
+              </div>
+            </NuxtLink>
+          </div>
+        </CoreInsideContainer>
+      </CoreAppContainer>
+    </div>
   </div>
 </template>
 

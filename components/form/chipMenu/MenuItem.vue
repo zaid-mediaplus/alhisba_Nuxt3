@@ -23,8 +23,8 @@ const props = defineProps({
   index: Number,
   onItemClicked: Function,
 });
-import checkIcon from "~~/assets/icons/wSelect.svg";
-import plusIcon from "~~/assets/icons/bplus.svg";
+import checkIcon from "~/assets/icons/wSelect.svg";
+import plusIcon from "~/assets/icons/bplus.svg";
 
 const check = ref(checkIcon);
 const plus = ref(plusIcon);

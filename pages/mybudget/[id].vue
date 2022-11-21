@@ -1,40 +1,42 @@
 <template>
-  <CoreInsideHeader
-    title="حسبة القرض العقاري"
-    :img="header"
-    description="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى.
+  <div>
+    <CoreInsideHeader
+      title="حسبة القرض العقاري"
+      :img="header"
+      description="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى.
 "
-    bottom="-50px"
-  />
-  <div class="page-bg">
-    <CoreAppContainer>
-      <CoreItemContainer>
-        <div class="budget">
-          <div
-            class="budget-form d-flex flex-column justify-content-between align-items-center"
-          >
-            <div class="input-lable">
-              <span>أدخل ميزانيتك</span>
-            </div>
+      bottom="-50px"
+    />
+    <div class="page-bg">
+      <CoreAppContainer>
+        <CoreItemContainer>
+          <div class="budget">
             <div
-              class="text-field d-flex justify-content-center align-items-center"
+              class="budget-form d-flex flex-column justify-content-between align-items-center"
             >
-              <input type="text" />
-              <span class="kd">د.ك</span>
+              <div class="input-lable">
+                <span>أدخل ميزانيتك</span>
+              </div>
+              <div
+                class="text-field d-flex justify-content-center align-items-center"
+              >
+                <input type="text" />
+                <span class="kd">د.ك</span>
+              </div>
+            </div>
+            <div class="calc-btn d-flex justify-content-end">
+              <div
+                class="calc d-flex justify-content-center align-items-center"
+                @click="selectToggle()"
+              >
+                <span>ابحث</span>
+              </div>
             </div>
           </div>
-          <div class="calc-btn d-flex justify-content-end">
-            <div
-              class="calc d-flex justify-content-center align-items-center"
-              @click="selectToggle()"
-            >
-              <span>ابحث</span>
-            </div>
-          </div>
-        </div>
-      </CoreItemContainer>
-    </CoreAppContainer>
-    <BudgetResult />
+        </CoreItemContainer>
+      </CoreAppContainer>
+      <BudgetResult />
+    </div>
   </div>
 </template>
 

@@ -1,15 +1,17 @@
 <template>
-  <div class="notification">
-    <BudgetNote />
-  </div>
-  <CoreFilter />
-  <NuxtLink to="/mybudget/1">
-    <div class="pricing-card" v-for="(item, index) in items" :key="index">
-      <BudgetBar :item="item" />
+  <div>
+    <div class="notification">
+      <BudgetNote />
     </div>
-  </NuxtLink>
-  <div class="pagination-bar d-flex justify-content-center gap-4">
-    <CorePagination />
+    <CoreFilter />
+    <NuxtLink to="/mybudget/1">
+      <div class="pricing-card" v-for="(item, index) in items" :key="index">
+        <BudgetBar :item="item" />
+      </div>
+    </NuxtLink>
+    <div class="pagination-bar d-flex justify-content-center gap-4">
+      <CorePagination />
+    </div>
   </div>
 </template>
 

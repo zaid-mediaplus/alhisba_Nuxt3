@@ -1,45 +1,46 @@
 <template>
-  <CoreInsideHeader title="اتصل بنا" :img="news" bottom="-135px" />
-  <CoreAppContainer>
-    <CoreItemContainer>
-      <div class="contact-us-page d-flex">
-        <div class="contact-information">
-          <div class="location d-flex align-items-center">
+  <div>
+    <CoreInsideHeader title="اتصل بنا" :img="news" bottom="-135px" />
+    <CoreAppContainer>
+      <CoreItemContainer>
+        <div class="contact-us-page d-flex">
+          <div class="contact-information">
+            <div class="location d-flex align-items-center">
+              <div
+                class="icon-bg d-flex justify-content-center align-items-center"
+              >
+                <img src="~/assets/icons/baddress.svg" alt="" />
+              </div>
+              <div class="left">
+                مدينة الكويت - القبلة - شارع الصالحية بناية سليمان اللهيب 3 -
+                الدور الثاني
+              </div>
+            </div>
+            <div class="mobile d-flex align-items-center">
+              <div
+                class="icon-bg d-flex justify-content-center align-items-center"
+              >
+                <img src="~/assets/icons/cardIcon/Phone.svg" alt="" />
+              </div>
+              <div class="left">+965 600 20 778</div>
+            </div>
+            <div class="email d-flex align-items-center">
+              <div
+                class="icon-bg d-flex justify-content-center align-items-center"
+              >
+                <img src="~/assets/icons/cardIcon/Message.svg" alt="" />
+              </div>
+              <div class="left">info@alhisba.com</div>
+            </div>
             <div
-              class="icon-bg d-flex justify-content-center align-items-center"
+              class="social-media d-flex justify-content-between align-items-center"
             >
-              <img src="~/assets/icons/baddress.svg" alt="" />
+              <img src="~/assets/icons/d-instagram.svg" alt="" />
+              <img src="~/assets/icons/d-linkedin.svg" alt="" />
+              <img src="~/assets/icons/d-twitter.svg" alt="" />
+              <img src="~/assets/icons/d-facebook.svg" alt="" />
             </div>
-            <div class="left">
-              مدينة الكويت - القبلة - شارع الصالحية بناية سليمان اللهيب 3 -
-              الدور الثاني
-            </div>
-          </div>
-          <div class="mobile d-flex align-items-center">
-            <div
-              class="icon-bg d-flex justify-content-center align-items-center"
-            >
-              <img src="~/assets/icons/cardIcon/Phone.svg" alt="" />
-            </div>
-            <div class="left">+965 600 20 778</div>
-          </div>
-          <div class="email d-flex align-items-center">
-            <div
-              class="icon-bg d-flex justify-content-center align-items-center"
-            >
-              <img src="~/assets/icons/cardIcon/Message.svg" alt="" />
-            </div>
-            <div class="left">info@alhisba.com</div>
-          </div>
-          <div
-            class="social-media d-flex justify-content-between align-items-center"
-          >
-            <img src="~/assets/icons/d-instagram.svg" alt="" />
-            <img src="~/assets/icons/d-linkedin.svg" alt="" />
-            <img src="~/assets/icons/d-twitter.svg" alt="" />
-            <img src="~/assets/icons/d-facebook.svg" alt="" />
-          </div>
-          <!-- <div class="map">
+            <!-- <div class="map">
             <iframe
               width="507px"
               height="179px"
@@ -50,35 +51,38 @@
               marginwidth="0"
             ></iframe>
           </div> -->
-        </div>
-        <div class="send-message">
-          <div class="message-form">
-            <div class="message-form-bg">
-              <div class="title">أرسل لنا رسالة</div>
-              <div class="input">
-                <FormTextFeild title="الإسم كامل" />
+          </div>
+          <div class="send-message">
+            <div class="message-form">
+              <div class="message-form-bg">
+                <div class="title">أرسل لنا رسالة</div>
+                <div class="input">
+                  <FormTextFeild title="الإسم كامل" />
+                </div>
+                <div class="input">
+                  <FormTextFeild title="البريدالإلكتروني" />
+                </div>
+                <div class="input">
+                  <FormNumberDropDown />
+                </div>
+                <textarea
+                  class="your-message"
+                  placeholder="ما هي رسالتك؟"
+                ></textarea>
               </div>
-              <div class="input">
-                <FormTextFeild title="البريدالإلكتروني" />
+            </div>
+            <div class="send-btn d-flex justify-content-end">
+              <div
+                class="send d-flex justify-content-center align-items-center"
+              >
+                <span>إرسال</span>
               </div>
-              <div class="input">
-                <FormNumberDropDown />
-              </div>
-              <textarea
-                class="your-message"
-                placeholder="ما هي رسالتك؟"
-              ></textarea>
             </div>
           </div>
-          <div class="send-btn d-flex justify-content-end">
-            <div class="send d-flex justify-content-center align-items-center">
-              <span>إرسال</span>
-            </div>
-          </div>
         </div>
-      </div>
-    </CoreItemContainer>
-  </CoreAppContainer>
+      </CoreItemContainer>
+    </CoreAppContainer>
+  </div>
 </template>
 
 <script setup scoped>

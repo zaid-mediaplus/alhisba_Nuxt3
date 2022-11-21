@@ -38,4 +38,5 @@ export default defineNuxtConfig({
   //   }
   // },
   components: true,
+  preset: 'netlify',
 });

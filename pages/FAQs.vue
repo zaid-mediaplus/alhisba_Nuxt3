@@ -1,22 +1,24 @@
 <template>
-  <CoreInsideHeader
-    title="أسئلة متكررة"
-    img="~/assets/icons/aboutus.svg"
-    bottom="-135px"
-  />
-  <CoreAppContainer>
-    <CoreItemContainer>
-      <div class="FAQs-section">
-        <div
-          class="packages-container"
-          v-for="(question, index) in questions"
-          :key="index"
-        >
-          <FAQsAccordion :question="question" />
+  <div>
+    <CoreInsideHeader
+      title="أسئلة متكررة"
+      img="~/assets/icons/aboutus.svg"
+      bottom="-135px"
+    />
+    <CoreAppContainer>
+      <CoreItemContainer>
+        <div class="FAQs-section">
+          <div
+            class="packages-container"
+            v-for="(question, index) in questions"
+            :key="index"
+          >
+            <FAQsAccordion :question="question" />
+          </div>
         </div>
-      </div>
-    </CoreItemContainer>
-  </CoreAppContainer>
+      </CoreItemContainer>
+    </CoreAppContainer>
+  </div>
 </template>
 
 <script setup>

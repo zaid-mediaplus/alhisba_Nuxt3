@@ -1,67 +1,69 @@
 <template>
-  <CoreInsideHeader
-    title="تبادل ممتلكات"
-    :img="header"
-    description="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى.
+  <div>
+    <CoreInsideHeader
+      title="تبادل ممتلكات"
+      :img="header"
+      description="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى.
 "
-    bottom="-50px"
-  />
-  <CoreAppContainer>
-    <CoreItemContainer>
-      <FormSearch />
-    </CoreItemContainer>
-    <div class="main-title d-flex justify-content-between align-items-center">
-      <div class="right">
-        <span class="title"> عقارات للتبادل</span>
-        <span class="result">68,444 نتيجة</span>
-      </div>
-      <div class="left d-flex">
-        <span class="sort">ترتيب بحسب:</span>
-        <div class="by d-flex">
-          <span>الأحدث إلى الأقدم </span>
-          <img src="~/assets/icons/downarrow.svg" alt="" />
+      bottom="-50px"
+    />
+    <CoreAppContainer>
+      <CoreItemContainer>
+        <FormSearch />
+      </CoreItemContainer>
+      <div class="main-title d-flex justify-content-between align-items-center">
+        <div class="right">
+          <span class="title"> عقارات للتبادل</span>
+          <span class="result">68,444 نتيجة</span>
+        </div>
+        <div class="left d-flex">
+          <span class="sort">ترتيب بحسب:</span>
+          <div class="by d-flex">
+            <span>الأحدث إلى الأقدم </span>
+            <img src="~/assets/icons/downarrow.svg" alt="" />
+          </div>
         </div>
       </div>
-    </div>
-    <div class="lands-card-section d-flex gap-4">
-      <CoreSuggestedRealState />
-      <CoreSuggestedRealState />
-      <CoreSuggestedRealState />
-      <CoreSuggestedRealState />
-    </div>
-    <div class="lands-card-section d-flex gap-4">
-      <CoreSuggestedRealState />
-      <CoreSuggestedRealState />
-      <CoreSuggestedRealState />
-      <CoreSuggestedRealState />
-    </div>
-    <div class="pagination-bar d-flex justify-content-center gap-4">
-      <CorePagination />
-    </div>
-    <div class="note">
-      <div class="note-bg d-flex justify-content-between align-items-center">
-        <div class="note-right d-flex">
-          <div class="icon-bg">
-            <img src="" alt="" />
+      <div class="lands-card-section d-flex gap-4">
+        <CoreSuggestedRealState />
+        <CoreSuggestedRealState />
+        <CoreSuggestedRealState />
+        <CoreSuggestedRealState />
+      </div>
+      <div class="lands-card-section d-flex gap-4">
+        <CoreSuggestedRealState />
+        <CoreSuggestedRealState />
+        <CoreSuggestedRealState />
+        <CoreSuggestedRealState />
+      </div>
+      <div class="pagination-bar d-flex justify-content-center gap-4">
+        <CorePagination />
+      </div>
+      <div class="note">
+        <div class="note-bg d-flex justify-content-between align-items-center">
+          <div class="note-right d-flex">
+            <div class="icon-bg">
+              <img src="" alt="" />
+            </div>
+            <div class="center d-flex flex-column">
+              <div class="top">لم تجد العقارات التي تبحث عنها؟</div>
+              <div class="bottom">
+                انقر هنا لإضافة طلبك إلى قاعدة البيانات الخاصة بنا وسنخبرك بمجرد
+                أن يكون لدينا عميل محتمل.
+              </div>
+            </div>
           </div>
-          <div class="center d-flex flex-column">
-            <div class="top">لم تجد العقارات التي تبحث عنها؟</div>
-            <div class="bottom">
-              انقر هنا لإضافة طلبك إلى قاعدة البيانات الخاصة بنا وسنخبرك بمجرد
-              أن يكون لدينا عميل محتمل.
+          <div class="note-left">
+            <div class="add-btn d-flex justify-content-end">
+              <div class="add d-flex justify-content-center align-items-center">
+                <span>أضف طلبي</span>
+              </div>
             </div>
           </div>
         </div>
-        <div class="note-left">
-          <div class="add-btn d-flex justify-content-end">
-            <div class="add d-flex justify-content-center align-items-center">
-              <span>أضف طلبي</span>
-            </div>
-          </div>
-        </div>
       </div>
-    </div>
-  </CoreAppContainer>
+    </CoreAppContainer>
+  </div>
 </template>
 
 <script setup>
