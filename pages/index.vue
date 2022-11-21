@@ -1,5 +1,225 @@
 <template>
- <div>hi</div>
+  <div class="home">
+    <CoreHomeHeader />
+    <CoreAppContainer>
+      <div class="d-flex justify-content-center">
+        <span class="section-title" id="services">كيف يمكننا مساعدتك؟</span>
+      </div>
+      <div
+        class="section-contant d-flex align-items-center flex-fill justify-content-center gap-2"
+      >
+        <HomeSectionItem
+          v-for="(item, index) in items"
+          :key="item.index"
+          :path="item.path"
+          :title="item.title"
+          :icon="sectionItemImages[index]"
+        />
+      </div>
+      <div class="ads-btn-container d-flex justify-content-center">
+        <NuxtLink to="/edit-ad/new">
+          <div
+            class="addAds-btn position-relative d-flex justify-content-between align-items-center"
+          >
+            <div class="position-relative">
+              <img class="house" src="/icons/house.svg" />
+            </div>
+            <div class="plus-1 position-absolute">
+              <img src="/icons/plus1.svg" />
+            </div>
+            <span class="ads-btn-title">أضف إعلان</span>
+            <img class="plus2" src="/icons/plus2.svg" />
+          </div>
+        </NuxtLink>
+      </div>
+      <div
+        class="sggested-section d-flex justify-content-between align-items-center pb-4"
+      >
+        <div class="sections-title">
+          <span>عقارات مقترحة للبيع</span>
+        </div>
+        <NuxtLink to="/advertisement">
+          <CoreViewAll />
+        </NuxtLink>
+      </div>
+      <div class="SuggestedRealState d-flex">
+        <CoreSuggestedRealState />
+        <CoreSuggestedRealState />
+        <CoreSuggestedRealState />
+        <CoreSuggestedRealState />
+        <CoreSuggestedRealState />
+      </div>
+      <div
+        class="sggested-section d-flex justify-content-between align-items-center pb-4 pt-5"
+      >
+        <div class="sections-title">
+          <span>عقارات مقترحة للإيجار</span>
+        </div>
+        <NuxtLink to="/advertisement">
+          <CoreViewAll />
+        </NuxtLink>
+      </div>
+      <div class="SuggestedRealState d-flex">
+        <CoreSuggestedRealState />
+        <CoreSuggestedRealState />
+        <CoreSuggestedRealState />
+        <CoreSuggestedRealState />
+        <CoreSuggestedRealState />
+      </div>
+      <div class="wanted-reals-state-section d-flex flex-row">
+        <div class="wanted-section-right d-flex flex-column">
+          <div class="wanted-section-right-top">
+            <div
+              class="wanted-section d-flex justify-content-between pb-4 pt-5"
+            >
+              <div class="sections-title">
+                <span>عقارات مطلوبة للبيع</span>
+              </div>
+              <NuxtLink to="/advertisement">
+                <NuxtLink to="/advertisement">
+                  <CoreViewAll />
+                </NuxtLink>
+              </NuxtLink>
+            </div>
+            <div class="wanted-reals-state d-flex">
+              <HomeWantedRealState />
+              <HomeWantedRealState />
+              <HomeWantedRealState />
+              <HomeWantedRealState />
+              <HomeWantedRealState />
+            </div>
+          </div>
+          <div class="wanted-section-right-bottom">
+            <div
+              class="wanted-section d-flex justify-content-between pb-4 pt-5"
+            >
+              <div class="sections-title">
+                <span>عقارات مطلوبة للإيجار</span>
+              </div>
+              <NuxtLink to="/advertisement">
+                <NuxtLink to="/advertisement">
+                  <CoreViewAll />
+                </NuxtLink>
+              </NuxtLink>
+            </div>
+            <div class="wanted-reals-state d-flex">
+              <HomeWantedRealState />
+              <HomeWantedRealState />
+              <HomeWantedRealState />
+              <HomeWantedRealState />
+              <HomeWantedRealState />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sggested-section d-flex justify-content-between align-items-center pb-4 pt-5"
+      >
+        <div class="sections-title">
+          <span>عقارات مقترحة للتبادل</span>
+        </div>
+        <NuxtLink to="/advertisement">
+          <CoreViewAll />
+        </NuxtLink>
+      </div>
+      <div class="SuggestedRealState d-flex">
+        <CoreSuggestedRealState />
+        <CoreSuggestedRealState />
+        <CoreSuggestedRealState />
+        <CoreSuggestedRealState />
+        <CoreSuggestedRealState />
+      </div>
+      <div class="ads-section-2 d-flex justify-content-center">
+        <div class="ads-slider d-flex justify-content-center">
+              <img src="/images/AD-3.png" />
+            <!-- <swiper-slide> <img src="/images/AD-3.png" /> </swiper-slide> -->
+        </div>
+      </div>
+      <div class="news-section position-relative">
+        <div class="sections-title d-flex justify-content-center pb-5">
+          <span>آخر الأخبار العقارية</span>
+        </div>
+        <div class="news-container">
+          <div class="news d-flex justify-content-center gap-4 pb-5">
+            <HomeAppNews />
+            <HomeAppNews />
+            <HomeAppNews />
+          </div>
+        </div>
+        <div class="view-more d-flex justify-content-center">
+          <NuxtLink to="/news">
+            <span>عرض المزيد</span>
+          </NuxtLink>
+        </div>
+        <div class="kuwait-right position-absolute">
+          <img src="/images/kuwait-1.svg" />
+        </div>
+        <div class="kuwait-left position-absolute">
+          <img src="/images/kuwait-2.svg" />
+        </div>
+      </div>
+      <div class="alhisba-app-section">
+        <div class="alhisba-app-bg d-flex align-items-center">
+          <div class="right-section d-flex justify-content-center">
+            <div
+              class="iphone d-flex justify-content-center align-items-center rounded-circle"
+            >
+              <img src="/images/iphone.png" />
+            </div>
+          </div>
+          <div class="left-section">
+            <div class="logo">
+              <img src="/images/Logo.svg" />
+            </div>
+            <div class="title">
+              <span>تطبيق واحد لكل ما تحتاجه لعقارك</span>
+            </div>
+            <div class="description">
+              <span>
+                من مبيعات ومزادات، حساب تكلفة البناء وحساب قرض الرهن العقاري
+                وطلب تقييم رسمي الآن على متجر آبل وأندرويد.
+              </span>
+            </div>
+            <div class="os-logos">
+              <img src="/images/os.svg" class="os-logo" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="subscription-section d-flex justify-content-center">
+        <div class="subscription-title">
+          <span>
+            اشترك في خدمة الرسائل الإخبارية ليصلك كل جديد في السوق العقاري
+            الكويتي
+          </span>
+        </div>
+      </div> -->
+      <!-- <div
+        class="contact-us d-flex justify-content-center align-items-center position-relative"
+      >
+        <div
+          class="email-input d-flex justify-content-center align-items-center"
+        >
+          <div class="email">
+            <input placeholder="ادخل البريد الالكتروني" />
+          </div>
+          <div class="subscription-btn">
+            <button class="button-submit">
+              <span class="text-submit">اشترك الآن</span>
+            </button>
+          </div>
+        </div>
+        <div class="footer-img">
+          <div class="house-img position-absolute">
+            <img src="/images/blueHouse.svg" />
+          </div>
+          <div class="tree position-absolute">
+            <img src="/images/tree.svg" />
+          </div>
+        </div>
+      </div> -->
+    </CoreAppContainer>
+  </div>
 </template>
 
 <script setup>
